@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{3277B033-6B4F-4164-B2FC-191682D7791E}" Label="" LastModificationDate="1416925835" Name="DiagrammeClassCahierText" Objects="67" Symbols="13" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{80D48C83-FA54-4F00-8DD0-2C03899925FB}" Label="" LastModificationDate="1416990034" Name="gestiondetemps" Objects="51" Symbols="13" Target="C#" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -7,13 +7,13 @@
 <o:RootObject Id="o1">
 <c:Children>
 <o:Model Id="o2">
-<a:ObjectID>3277B033-6B4F-4164-B2FC-191682D7791E</a:ObjectID>
-<a:Name>DiagrammeClassCahierText</a:Name>
-<a:Code>DiagrammeClassCahierText</a:Code>
-<a:CreationDate>1416563359</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925822</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>80D48C83-FA54-4F00-8DD0-2C03899925FB</a:ObjectID>
+<a:Name>gestiondetemps</a:Name>
+<a:Code>gestiondetemps</a:Code>
+<a:CreationDate>1416647798</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416953392</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Class Diagram Objects]
@@ -34,7 +34,7 @@ ShowClss=No
 DeftAttr=int
 DeftMthd=int
 DeftParm=int
-DeftCont=java.util.Collection
+DeftCont=System.Collections.ArrayList
 DomnDttp=Yes
 DomnChck=No
 DomnRule=No
@@ -61,7 +61,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,,,FirstUpperChar)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -70,7 +70,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -98,7 +98,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -126,7 +126,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -154,7 +154,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -182,7 +182,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -210,7 +210,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -238,7 +238,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -266,7 +266,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -294,7 +294,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -313,7 +313,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,,,FirstUpperChar)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -322,7 +322,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -341,7 +341,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,,,FirstUpperChar)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -350,7 +350,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -378,7 +378,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -406,7 +406,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -434,7 +434,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -453,7 +453,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,,,FirstUpperChar)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -462,7 +462,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -490,7 +490,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -518,7 +518,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -546,7 +546,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -574,7 +574,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -602,7 +602,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -630,7 +630,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -658,7 +658,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -686,7 +686,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -714,7 +714,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -742,7 +742,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -770,7 +770,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -798,7 +798,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -826,7 +826,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -854,7 +854,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -882,7 +882,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -910,7 +910,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -949,41 +949,41 @@ ORMapping=No
 NameToCode=No</a:ModelOptionsText>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
-<a:ObjectID>B83FA058-E726-4EE9-8BE0-44A2067A3542</a:ObjectID>
-<a:Name>Java</a:Name>
-<a:Code>Java</a:Code>
-<a:CreationDate>1416563359</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563359</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>5422D641-B0A9-42F9-9168-DE47A46FC4AA</a:ObjectID>
+<a:Name>C#</a:Name>
+<a:Code>C#</a:Code>
+<a:CreationDate>1416647798</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416647798</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:TargetStereotype/>
-<a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
+<a:TargetID>D1E2D0BE-98BB-4413-890E-9D790F33B4DC</a:TargetID>
 <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 </o:Shortcut>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
 <o:Shortcut Id="o4">
-<a:ObjectID>7BCF9AE9-0FD5-48CE-A15C-3E86AE656BC8</a:ObjectID>
-<a:Name>WSDL for Java</a:Name>
-<a:Code>WSDLJava</a:Code>
-<a:CreationDate>1416563360</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563360</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>C2769CCE-E235-4854-A1AF-3113305681CF</a:ObjectID>
+<a:Name>WSDL for .NET</a:Name>
+<a:Code>WSDLDotNet</a:Code>
+<a:CreationDate>1416647801</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416647801</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:TargetStereotype/>
-<a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
+<a:TargetID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetID>
 <a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
 </o:Shortcut>
 </c:ExtendedModelDefinitions>
 <c:ClassDiagrams>
 <o:ClassDiagram Id="o5">
-<a:ObjectID>9C415BFE-8E44-4CCA-8E5D-901B5886E1EE</a:ObjectID>
+<a:ObjectID>99DEC6D1-E324-4CFE-BA3C-BA2F704376EA</a:ObjectID>
 <a:Name>DiagrammeClasses_1</a:Name>
 <a:Code>DiagrammeClasses_1</a:Code>
-<a:CreationDate>1416563359</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925822</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:CreationDate>1416647798</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416953392</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\CLD]
@@ -1395,10 +1395,10 @@ Shadow=0</a:DisplayPreferences>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
 <o:AssociationSymbol Id="o6">
-<a:CreationDate>1416563631</a:CreationDate>
-<a:ModificationDate>1416925427</a:ModificationDate>
-<a:Rect>((-14373,10720), (11091,12370))</a:Rect>
-<a:ListOfPoints>((11091,12370),(-1041,12370),(-1041,10720),(-14373,10720))</a:ListOfPoints>
+<a:CreationDate>1416769232</a:CreationDate>
+<a:ModificationDate>1416953449</a:ModificationDate>
+<a:Rect>((-13275,-7762), (3862,1509))</a:Rect>
+<a:ListOfPoints>((-13275,-7762),(2025,-7762),(2025,1509))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1416,10 +1416,10 @@ MULA 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o10">
-<a:CreationDate>1416563632</a:CreationDate>
-<a:ModificationDate>1416648043</a:ModificationDate>
-<a:Rect>((8798,-4309), (14182,11018))</a:Rect>
-<a:ListOfPoints>((12270,11018),(12270,4050),(10710,4050),(10710,-4309))</a:ListOfPoints>
+<a:CreationDate>1416769234</a:CreationDate>
+<a:ModificationDate>1416953443</a:ModificationDate>
+<a:Rect>((2813,-11362), (20062,809))</a:Rect>
+<a:ListOfPoints>((20025,-11362),(20025,-3394),(2850,-3394),(2850,809))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1427,20 +1427,20 @@ MULA 0 Arial,8,N</a:FontList>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
+<o:ClassSymbol Ref="o11"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o11"/>
+<o:ClassSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
 <o:Association Ref="o12"/>
 </c:Object>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o13">
-<a:CreationDate>1416647788</a:CreationDate>
-<a:ModificationDate>1416925831</a:ModificationDate>
-<a:Rect>((-4799,-75), (10049,11925))</a:Rect>
-<a:ListOfPoints>((8175,11925),(8175,5269),(-2775,5269),(-2775,-75))</a:ListOfPoints>
+<a:CreationDate>1416926438</a:CreationDate>
+<a:ModificationDate>1416953443</a:ModificationDate>
+<a:Rect>((0,-188), (16950,2210))</a:Rect>
+<a:ListOfPoints>((16950,986),(13037,986),(13037,1036),(0,1036))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1448,20 +1448,20 @@ MULA 0 Arial,8,N</a:FontList>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
+<o:ClassSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o14"/>
+<o:ClassSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
 <o:Association Ref="o15"/>
 </c:Object>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o16">
-<a:CreationDate>1416925822</a:CreationDate>
-<a:ModificationDate>1416925835</a:ModificationDate>
-<a:Rect>((-12975,-9375), (-3376,-1125))</a:Rect>
-<a:ListOfPoints>((-12975,-9375),(-5250,-9375),(-5250,-1125))</a:ListOfPoints>
+<a:CreationDate>1416949290</a:CreationDate>
+<a:ModificationDate>1416990034</a:ModificationDate>
+<a:Rect>((-19275,1630), (-3750,5703))</a:Rect>
+<a:ListOfPoints>((-19275,4529),(-10332,4529),(-10332,2804),(-3750,2804))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1472,17 +1472,59 @@ MULA 0 Arial,8,N</a:FontList>
 <o:ClassSymbol Ref="o17"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o14"/>
+<o:ClassSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
 <o:Association Ref="o18"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:ClassSymbol Id="o8">
-<a:CreationDate>1416563364</a:CreationDate>
-<a:ModificationDate>1416925427</a:ModificationDate>
+<o:AssociationSymbol Id="o19">
+<a:CreationDate>1416949597</a:CreationDate>
+<a:ModificationDate>1416953446</a:ModificationDate>
+<a:Rect>((-712,7109), (12300,13184))</a:Rect>
+<a:ListOfPoints>((1275,7109),(1275,13184),(12300,13184))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o8"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o20"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o21"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o22">
+<a:CreationDate>1416953392</a:CreationDate>
+<a:ModificationDate>1416953392</a:ModificationDate>
+<a:Rect>((1838,-15548), (15375,-10729))</a:Rect>
+<a:ListOfPoints>((3825,-15548),(3825,-11348),(15375,-11348))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o23"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o24"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:ClassSymbol Id="o14">
+<a:CreationDate>1416768937</a:CreationDate>
+<a:ModificationDate>1416953344</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-23619,4469), (-10129,18029))</a:Rect>
+<a:Rect>((16643,-1947), (23105,3821))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1498,14 +1540,14 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o19"/>
+<o:Class Ref="o25"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o7">
-<a:CreationDate>1416563364</a:CreationDate>
-<a:ModificationDate>1416647845</a:ModificationDate>
+<a:CreationDate>1416768941</a:CreationDate>
+<a:ModificationDate>1416953449</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((7131,8817), (18071,17507))</a:Rect>
+<a:Rect>((-21830,-10158), (-10272,-1468))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1521,14 +1563,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o20"/>
+<o:Class Ref="o26"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o11">
-<a:CreationDate>1416563557</a:CreationDate>
-<a:ModificationDate>1416648043</a:ModificationDate>
+<a:CreationDate>1416768944</a:CreationDate>
+<a:ModificationDate>1416953346</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((5163,-9558), (17185,-868))</a:Rect>
+<a:Rect>((12676,-13911), (22576,-7427))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1543,15 +1586,41 @@ LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o21"/>
+<o:Class Ref="o27"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o14">
-<a:CreationDate>1416646641</a:CreationDate>
-<a:ModificationDate>1416925831</a:ModificationDate>
+<o:ClassSymbol Id="o8">
+<a:CreationDate>1416769004</a:CreationDate>
+<a:ModificationDate>1416953443</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-8251,-4721), (449,2021))</a:Rect>
+<a:Rect>((-4706,-1037), (7256,8188))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Class Ref="o28"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o23">
+<a:CreationDate>1416770205</a:CreationDate>
+<a:ModificationDate>1416953348</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-2482,-17898), (4134,-13104))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1567,14 +1636,37 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o22"/>
+<o:Class Ref="o29"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o20">
+<a:CreationDate>1416925390</a:CreationDate>
+<a:ModificationDate>1416953446</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((9870,7657), (23282,17321))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Class Ref="o30"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o17">
-<a:CreationDate>1416925761</a:CreationDate>
-<a:ModificationDate>1416925835</a:ModificationDate>
+<a:CreationDate>1416926129</a:CreationDate>
+<a:ModificationDate>1416990034</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-20549,-13196), (-11849,-6454))</a:Rect>
+<a:Rect>((-22294,3804), (-12358,9572))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1590,7 +1682,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o23"/>
+<o:Class Ref="o31"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
@@ -1600,149 +1692,61 @@ LABL 0 Arial,8,N</a:FontList>
 <o:ClassDiagram Ref="o5"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o19">
-<a:ObjectID>74846A33-07C7-4259-B2E5-2EE2A5946759</a:ObjectID>
-<a:Name>Module</a:Name>
-<a:Code>Module</a:Code>
-<a:CreationDate>1416563364</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Class Id="o25">
+<a:ObjectID>445F4A2E-F52F-4EDB-AA83-36D82CF3FF16</a:ObjectID>
+<a:Name>Salle</a:Name>
+<a:Code>Salle</a:Code>
+<a:CreationDate>1416768937</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416953440</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o24">
-<a:ObjectID>7B729816-CF41-421F-B4E1-027C114080FB</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1416563369</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563490</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o25">
-<a:ObjectID>58C88F31-1A32-43A6-8E25-81A212AE2379</a:ObjectID>
-<a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1416563369</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563486</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o26">
-<a:ObjectID>F5BCEE8C-9CCD-4C25-9BA4-3412A083892C</a:ObjectID>
-<a:Name>Duree</a:Name>
-<a:Code>duree</a:Code>
-<a:CreationDate>1416563369</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416644665</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o27">
-<a:ObjectID>677C88AE-AF4B-4E17-BADD-7F48A1F47F04</a:ObjectID>
-<a:Name>StrategieEnseignement</a:Name>
-<a:Code>strategieEnseignement</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o28">
-<a:ObjectID>D1DE49BA-3A32-4D2F-913E-39F1DF44BDAC</a:ObjectID>
-<a:Name>Apprentisage</a:Name>
-<a:Code>apprentisage</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o29">
-<a:ObjectID>78836AF4-FEA4-463D-AF90-22AAF417F92C</a:ObjectID>
-<a:Name>Evaluation</a:Name>
-<a:Code>evaluation</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o30">
-<a:ObjectID>B230B581-DDC0-4CA2-85B8-A92C0618E231</a:ObjectID>
-<a:Name>Materiel</a:Name>
-<a:Code>materiel</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o31">
-<a:ObjectID>DAF083F2-59E9-453F-AAFA-F4AEF808244D</a:ObjectID>
-<a:Name>Equipement</a:Name>
-<a:Code>equipement</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
 <o:Attribute Id="o32">
-<a:ObjectID>AEFA02D5-268E-47E6-843F-759B87C4733B</a:ObjectID>
-<a:Name>Competence</a:Name>
-<a:Code>competence</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
+<a:ObjectID>D2A86532-589C-4957-942D-E6081371E0BF</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416769187</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769193</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o33">
-<a:ObjectID>A2ECBA54-E77F-4355-A216-843A3BFE0436</a:ObjectID>
-<a:Name>Presentation</a:Name>
-<a:Code>presentation</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>0867AAD5-B3B9-44E6-A2FF-F3569A96B0A8</a:ObjectID>
+<a:Name>Nom</a:Name>
+<a:Code>Nom</a:Code>
+<a:CreationDate>1416769191</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769223</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>string</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o34">
-<a:ObjectID>D7DBAB0B-6E96-4242-9744-ED57FCA9B405</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1416925115</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925213</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>F103073E-9510-4CF0-AB2B-6DDD5175E60E</a:ObjectID>
+<a:Name>Type</a:Name>
+<a:Code>Type</a:Code>
+<a:CreationDate>1416769191</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769223</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>string</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
 <o:Identifier Id="o35">
-<a:ObjectID>C7D46757-D5CE-4A78-9D82-8BC05C4A103A</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>Id</a:Code>
-<a:CreationDate>1416563486</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563490</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>DE5CA17F-8AA1-44CE-BBF4-D49333BA8A36</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>Identifiant_1</a:Code>
+<a:CreationDate>1416769191</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769193</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o24"/>
+<o:Attribute Ref="o32"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
@@ -1750,95 +1754,92 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Identifier Ref="o35"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o20">
-<a:ObjectID>30BC0763-A8FB-4157-8609-B17F4B51F955</a:ObjectID>
-<a:Name>Precision</a:Name>
-<a:Code>Precision</a:Code>
-<a:CreationDate>1416563364</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647781</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Class Id="o26">
+<a:ObjectID>05F1DAF6-A78A-4D72-BB16-7E28020AACC7</a:ObjectID>
+<a:Name>Formateur</a:Name>
+<a:Code>Formateur</a:Code>
+<a:CreationDate>1416768941</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769168</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
 <o:Attribute Id="o36">
-<a:ObjectID>62EBA0F6-2CB6-4F39-8FA6-44002793605E</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1416563493</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563524</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>4F38A4B4-108A-42F9-8227-C0DD570965AE</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416769081</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769095</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o37">
-<a:ObjectID>924A773F-7B3B-4CCC-8C77-84D4419E52AF</a:ObjectID>
+<a:ObjectID>ABA2A102-DFE5-4750-B793-1A7BBC6C849D</a:ObjectID>
 <a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1416563493</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647419</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:Code>Nom</a:Code>
+<a:CreationDate>1416769093</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769168</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>string</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o38">
-<a:ObjectID>D1F99386-4E37-4481-B80A-E35226874450</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1416563493</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563612</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>738845F8-B693-4D7A-B170-7095D0BD7085</a:ObjectID>
+<a:Name>Prenom</a:Name>
+<a:Code>Prenom</a:Code>
+<a:CreationDate>1416769093</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769168</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>string</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o39">
-<a:ObjectID>201B80D3-CE57-4C8F-A0EE-EBF7C0E4AF95</a:ObjectID>
-<a:Name>Duree</a:Name>
-<a:Code>duree</a:Code>
-<a:CreationDate>1416646487</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647419</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>889190B5-9949-4946-B4B1-9241FD41189A</a:ObjectID>
+<a:Name>Cin</a:Name>
+<a:Code>Cin</a:Code>
+<a:CreationDate>1416769093</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769128</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o40">
-<a:ObjectID>2DACF63C-0A5A-4479-9AD0-893D57164CB6</a:ObjectID>
-<a:Name>Ordre</a:Name>
-<a:Code>ordre</a:Code>
-<a:CreationDate>1416647330</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647419</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>9AA38D56-8DF5-4DE9-9B2D-1E38E6FCDE93</a:ObjectID>
+<a:Name>tel</a:Name>
+<a:Code>Tel</a:Code>
+<a:CreationDate>1416769130</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769140</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o41">
-<a:ObjectID>47061D52-9948-474A-947E-9F57FE85F157</a:ObjectID>
-<a:Name>Duree_Module</a:Name>
-<a:Code>dureeModule</a:Code>
-<a:CreationDate>1416647330</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647419</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>Module</a:DataType>
+<a:ObjectID>217A32CF-AE46-45FB-AD95-51D848526057</a:ObjectID>
+<a:Name>datenaissance</a:Name>
+<a:Code>Datenaissance</a:Code>
+<a:CreationDate>1416769141</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769168</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>DateTime</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
-<c:ObjectDataType>
-<o:Class Ref="o19"/>
-</c:ObjectDataType>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
 <o:Identifier Id="o42">
-<a:ObjectID>67AE9046-2768-4DAA-BCA2-8952A076D351</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>Id</a:Code>
-<a:CreationDate>1416563519</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563524</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>5D0FEDDC-19C7-4A15-87E1-40AA867230E0</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>Identifiant_1</a:Code>
+<a:CreationDate>1416769093</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769095</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <c:Identifier.Attributes>
 <o:Attribute Ref="o36"/>
 </c:Identifier.Attributes>
@@ -1848,97 +1849,117 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Identifier Ref="o42"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o21">
-<a:ObjectID>E1DFC445-8CB2-4B28-9102-6DA5B7B5CC80</a:ObjectID>
-<a:Name>ContenuePrecision</a:Name>
-<a:Code>ContenuePrecision</a:Code>
-<a:CreationDate>1416563557</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925356</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Class Id="o27">
+<a:ObjectID>2FC00C0D-3261-4A27-96FA-B2D937899BA2</a:ObjectID>
+<a:Name>Groupe</a:Name>
+<a:Code>Groupe</a:Code>
+<a:CreationDate>1416768944</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416927669</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
 <o:Attribute Id="o43">
-<a:ObjectID>81062D4F-85F6-434D-84D3-23FA0AB45160</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1416563560</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416568149</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>7DC997B9-5748-4FB6-934A-832CD4D17735</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416769045</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769064</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o44">
-<a:ObjectID>4770CD83-0429-414C-B910-A90D769579A7</a:ObjectID>
+<a:ObjectID>1AEB45C4-F268-45FE-BB4E-E839CA722A13</a:ObjectID>
 <a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1416563560</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647645</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:Code>Nom</a:Code>
+<a:CreationDate>1416769045</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769075</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>string</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o45">
-<a:ObjectID>67AD7A6E-FA48-431D-A48E-4FE50194A77A</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1416563560</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563603</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
+</c:Attributes>
+<c:Identifiers>
+<o:Identifier Id="o45">
+<a:ObjectID>4A434387-B78E-40AD-843E-7A2E41A044B5</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>Identifiant_1</a:Code>
+<a:CreationDate>1416769062</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769064</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<c:Identifier.Attributes>
+<o:Attribute Ref="o43"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o45"/>
+</c:PrimaryIdentifier>
+</o:Class>
+<o:Class Id="o28">
+<a:ObjectID>5FD1C4BE-070D-47A5-8050-5F96C30C9DCD</a:ObjectID>
+<a:Name>Séance</a:Name>
+<a:Code>Seance</a:Code>
+<a:CreationDate>1416769004</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416953440</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:UseParentNamespace>0</a:UseParentNamespace>
+<a:Classifier.Header>/***********************************************************************
+ * Module:  EmploiTemps.cs
+ * Author:  chabba
+ * Purpose: Definition of the Class EmploiTemps
+ ***********************************************************************/</a:Classifier.Header>
+<c:Attributes>
 <o:Attribute Id="o46">
-<a:ObjectID>43D331C6-6345-4A5F-82C6-478DF6C5186D</a:ObjectID>
-<a:Name>Duree</a:Name>
-<a:Code>duree</a:Code>
-<a:CreationDate>1416646531</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647645</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>F9702521-0F9D-44D2-B40E-EC7EA8B2211A</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416769004</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769004</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o47">
-<a:ObjectID>37818FDF-8A2B-4352-8FB9-87EAFF68C8E6</a:ObjectID>
-<a:Name>Ordre</a:Name>
-<a:Code>ordre</a:Code>
-<a:CreationDate>1416647485</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647645</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>String</a:DataType>
+<a:ObjectID>486C7022-08FE-46C4-91A4-7F47FFF73793</a:ObjectID>
+<a:Name>heureDépart</a:Name>
+<a:Code>HeureDepart</a:Code>
+<a:CreationDate>1416769004</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416924492</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>DateTime</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o48">
-<a:ObjectID>16DFE8CE-D7CD-47A3-86C1-3B050E6E5EB2</a:ObjectID>
-<a:Name>Duree_Precision</a:Name>
-<a:Code>dureePrecision</a:Code>
-<a:CreationDate>1416647765</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416647781</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>Precision</a:DataType>
+<a:ObjectID>3FEA36B4-C09A-4400-A988-FEE0C323F91D</a:ObjectID>
+<a:Name>durée</a:Name>
+<a:Code>Duree</a:Code>
+<a:CreationDate>1416769004</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926983</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>DateTime</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
-<c:ObjectDataType>
-<o:Class Ref="o20"/>
-</c:ObjectDataType>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
 <o:Identifier Id="o49">
-<a:ObjectID>115E0E90-BE85-4347-80A3-844E6B5639F6</a:ObjectID>
+<a:ObjectID>47683A2B-B4B7-40E4-B632-CC7B6E7A47BA</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>Identifiant_1</a:Code>
-<a:CreationDate>1416568146</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416568149</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:CreationDate>1416769004</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769004</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o43"/>
+<o:Attribute Ref="o46"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
@@ -1946,271 +1967,358 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Identifier Ref="o49"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o22">
-<a:ObjectID>F1CFA0B4-809C-491B-AEEB-960CA9E342AA</a:ObjectID>
-<a:Name>Prealable</a:Name>
-<a:Code>Prealable</a:Code>
-<a:CreationDate>1416646641</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416646701</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Class Id="o29">
+<a:ObjectID>6F4C9353-03A1-4800-B740-0CF7EC7E00C9</a:ObjectID>
+<a:Name>Filiere</a:Name>
+<a:Code>Filiere</a:Code>
+<a:CreationDate>1416770205</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416770276</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
 <o:Attribute Id="o50">
-<a:ObjectID>2A5AF73A-58C7-4C7C-8EC6-144BD06FCF35</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1416646644</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416646701</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>EC6A1FE1-F46C-46B0-9BE4-17DB28C94501</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416770239</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416770276</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o51">
-<a:ObjectID>F56981DB-6B64-4373-83B7-393E638D351F</a:ObjectID>
+<a:ObjectID>7C1DD227-8607-4259-A278-6E6C76887420</a:ObjectID>
 <a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1416646644</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416646695</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o52">
-<a:ObjectID>2F528785-646B-440F-A9BE-7693CDB1FCE8</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1416646644</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416646695</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o53">
-<a:ObjectID>040765EF-1477-46AE-AE3A-3B8B5187738B</a:ObjectID>
-<a:Name>Ordre</a:Name>
-<a:Code>ordre</a:Code>
-<a:CreationDate>1416646644</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416646695</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>int</a:DataType>
+<a:Code>Nom</a:Code>
+<a:CreationDate>1416770239</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416770274</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o54">
-<a:ObjectID>E15774AC-703C-4919-A28A-5A0E37B549DA</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>Id</a:Code>
-<a:CreationDate>1416646695</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416646701</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Identifier Id="o52">
+<a:ObjectID>7E8E68A9-89CC-44FA-AA71-15EE7A3C1941</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>Identifiant_1</a:Code>
+<a:CreationDate>1416770274</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416770276</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <c:Identifier.Attributes>
 <o:Attribute Ref="o50"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o54"/>
+<o:Identifier Ref="o52"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o23">
-<a:ObjectID>5A32C17E-183A-420E-A914-7BDA97BCC066</a:ObjectID>
-<a:Name>ContenuePrealable</a:Name>
-<a:Code>ContenuePrealable</a:Code>
-<a:CreationDate>1416925761</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925813</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Class Id="o30">
+<a:ObjectID>8F02EBE0-5F96-469A-ABA1-EF7EC955FF27</a:ObjectID>
+<a:Name>EmploiTemps</a:Name>
+<a:Code>EmploiTemps</a:Code>
+<a:CreationDate>1416925390</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416949566</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o55">
-<a:ObjectID>A12EE76C-D53E-439F-B3D5-9C61B3FF6BD2</a:ObjectID>
+<o:Attribute Id="o53">
+<a:ObjectID>077F85DA-C16A-42A5-822D-03F46EAF81B7</a:ObjectID>
 <a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1416925764</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925813</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416925459</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416925471</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o54">
+<a:ObjectID>9E19BB31-2CDD-417D-8B06-D703E1799E80</a:ObjectID>
+<a:Name>Jour</a:Name>
+<a:Code>Jour</a:Code>
+<a:CreationDate>1416925469</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416925537</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o55">
+<a:ObjectID>E53887D3-72AC-4521-83F0-9CA2F2DB6546</a:ObjectID>
+<a:Name>Mass Horaire</a:Name>
+<a:Code>MassHoraire</a:Code>
+<a:CreationDate>1416925971</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926125</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o56">
-<a:ObjectID>47D4F860-D03D-4AFE-9B70-AEBD5945568C</a:ObjectID>
-<a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1416925764</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925809</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
+<a:ObjectID>EB955231-A2FA-43D9-819C-854F7BDD4D7A</a:ObjectID>
+<a:Name>Niveau</a:Name>
+<a:Code>Niveau</a:Code>
+<a:CreationDate>1416925971</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926125</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o57">
-<a:ObjectID>53B024A4-7497-4E34-B153-C8F35622426D</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1416925764</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925809</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
+<a:ObjectID>5712030D-37C3-4A1C-A1C8-EA504553A93D</a:ObjectID>
+<a:Name>Anné de Formation</a:Name>
+<a:Code>AnneDeFormation</a:Code>
+<a:CreationDate>1416925971</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926125</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>DateTime</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o58">
-<a:ObjectID>C1F85324-F194-4F06-821B-1BC460A2395B</a:ObjectID>
-<a:Name>Ordre</a:Name>
-<a:Code>ordre</a:Code>
-<a:CreationDate>1416925764</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925809</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:DataType>string</a:DataType>
+<a:ObjectID>CC2EC049-AB09-45B5-B084-F83BF7F2E311</a:ObjectID>
+<a:Name>Date début</a:Name>
+<a:Code>DateDebut</a:Code>
+<a:CreationDate>1416926309</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416949551</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>DateTime</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o59">
+<a:ObjectID>C92AAFDD-F3CD-460B-9A6B-E91004319FC7</a:ObjectID>
+<a:Name>date fin</a:Name>
+<a:Code>DateFin</a:Code>
+<a:CreationDate>1416949553</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416949566</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o59">
-<a:ObjectID>5FEC7A93-FA64-4803-99A8-AE2A451D712D</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>Id</a:Code>
-<a:CreationDate>1416925809</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925813</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<o:Identifier Id="o60">
+<a:ObjectID>10A572CE-EF1C-43B3-A391-03504BF18865</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>Identifiant_1</a:Code>
+<a:CreationDate>1416925469</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416925471</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o55"/>
+<o:Attribute Ref="o53"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o59"/>
+<o:Identifier Ref="o60"/>
 </c:PrimaryIdentifier>
+</o:Class>
+<o:Class Id="o31">
+<a:ObjectID>82B883D2-964E-4B0B-B8AC-7BEA8E455181</a:ObjectID>
+<a:Name>Modules</a:Name>
+<a:Code>Modules</a:Code>
+<a:CreationDate>1416926129</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926209</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o61">
+<a:ObjectID>804BA075-E077-4556-B913-32333300ECF3</a:ObjectID>
+<a:Name>Id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1416926147</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926209</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o62">
+<a:ObjectID>B0B952E2-96D6-4B81-B20D-B591C8B49FD1</a:ObjectID>
+<a:Name>Nom</a:Name>
+<a:Code>Nom</a:Code>
+<a:CreationDate>1416926147</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926209</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o63">
+<a:ObjectID>AFC4DA9C-18A0-4EB0-AC98-7BB64E5B3E97</a:ObjectID>
+<a:Name>NombreHeure</a:Name>
+<a:Code>NombreHeure</a:Code>
+<a:CreationDate>1416926147</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416926209</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
 </c:Classes>
 <c:Associations>
 <o:Association Id="o9">
-<a:ObjectID>B68E4AFE-C791-4BB5-8F55-481A6C0EBE70</a:ObjectID>
-<a:Name>Association_1</a:Name>
-<a:Code>association1</a:Code>
-<a:CreationDate>1416563631</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416563631</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>5920AEF8-2DBE-4D89-A6CD-D51D9C97D2EB</a:ObjectID>
+<a:Name>Association_2</a:Name>
+<a:Code>Association2</a:Code>
+<a:CreationDate>1416769232</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769232</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
-<a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,224={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
-{F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
-{C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,17=java.util.HashSet
+<a:ExtendedAttributesText>{D1E2D0BE-98BB-4413-890E-9D790F33B4DC},C#,64={4924442A-1CC4-4978-8C47-6FFB5B1F8052},roleAContainer,6=&lt;None&gt;
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o19"/>
+<o:Class Ref="o28"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o20"/>
+<o:Class Ref="o26"/>
 </c:Object2>
 </o:Association>
 <o:Association Id="o12">
-<a:ObjectID>33436584-3CF0-4195-9952-DB7CB30558A3</a:ObjectID>
-<a:Name>Association_2</a:Name>
-<a:Code>association2</a:Code>
-<a:CreationDate>1416563632</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925468</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
-<a:RoleBMultiplicity>0..1</a:RoleBMultiplicity>
-<a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,276={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
-{F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
-{C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,6=&lt;None&gt;
-{78C31404-0EE5-4FD0-9038-EE396B305F05},roleBContainer,6=&lt;None&gt;
+<a:ObjectID>105545A9-3FEA-4DD7-BB92-16F5FB8F009F</a:ObjectID>
+<a:Name>Association_3</a:Name>
+<a:Code>Association3</a:Code>
+<a:CreationDate>1416769234</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416769234</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{D1E2D0BE-98BB-4413-890E-9D790F33B4DC},C#,64={4924442A-1CC4-4978-8C47-6FFB5B1F8052},roleAContainer,6=&lt;None&gt;
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o21"/>
+<o:Class Ref="o28"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o20"/>
+<o:Class Ref="o27"/>
 </c:Object2>
 </o:Association>
 <o:Association Id="o15">
-<a:ObjectID>64FD71A8-0D4E-42DD-A958-1ED4BDA8B1F4</a:ObjectID>
-<a:Name>Association_4</a:Name>
-<a:Code>association4</a:Code>
-<a:CreationDate>1416647788</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925488</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>169EC49B-3EA8-4859-A2F4-06981D6197CD</a:ObjectID>
+<a:Name>Association_8</a:Name>
+<a:Code>Association8</a:Code>
+<a:CreationDate>1416926438</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416953440</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
-<a:RoleBMultiplicity>0..1</a:RoleBMultiplicity>
-<a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,276={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
-{F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
-{C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,6=&lt;None&gt;
-{78C31404-0EE5-4FD0-9038-EE396B305F05},roleBContainer,6=&lt;None&gt;
+<a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{D1E2D0BE-98BB-4413-890E-9D790F33B4DC},C#,128={4924442A-1CC4-4978-8C47-6FFB5B1F8052},roleAContainer,6=&lt;None&gt;
+{B8A5F791-6EAB-45F1-A2F3-FC70018D8884},roleBContainer,6=&lt;None&gt;
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o22"/>
+<o:Class Ref="o28"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o20"/>
+<o:Class Ref="o25"/>
 </c:Object2>
 </o:Association>
 <o:Association Id="o18">
-<a:ObjectID>71560637-E5D0-4175-AF41-F97A0ADAC66B</a:ObjectID>
-<a:Name>Association_5</a:Name>
-<a:Code>association5</a:Code>
-<a:CreationDate>1416925822</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416925822</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
+<a:ObjectID>D7132FAA-2B86-4B1C-B4EC-500D417FBE04</a:ObjectID>
+<a:Name>Association_7</a:Name>
+<a:Code>Association7</a:Code>
+<a:CreationDate>1416949290</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416949290</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
 <a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
-<a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,224={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
-{F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
-{C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,17=java.util.HashSet
+<a:ExtendedAttributesText>{D1E2D0BE-98BB-4413-890E-9D790F33B4DC},C#,64={4924442A-1CC4-4978-8C47-6FFB5B1F8052},roleAContainer,6=&lt;None&gt;
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o22"/>
+<o:Class Ref="o28"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o23"/>
+<o:Class Ref="o31"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o21">
+<a:ObjectID>AB3956B3-E51C-4EC2-96C7-BF89AEAE8FDF</a:ObjectID>
+<a:Name>Association_6</a:Name>
+<a:Code>Association6</a:Code>
+<a:CreationDate>1416949597</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416949597</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{D1E2D0BE-98BB-4413-890E-9D790F33B4DC},C#,64={4924442A-1CC4-4978-8C47-6FFB5B1F8052},roleAContainer,6=&lt;None&gt;
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Class Ref="o30"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o28"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o24">
+<a:ObjectID>16DA0E27-78F9-43A8-BF57-F4AC97EE307D</a:ObjectID>
+<a:Name>Association_9</a:Name>
+<a:Code>Association9</a:Code>
+<a:CreationDate>1416953392</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416953392</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{D1E2D0BE-98BB-4413-890E-9D790F33B4DC},C#,64={4924442A-1CC4-4978-8C47-6FFB5B1F8052},roleAContainer,6=&lt;None&gt;
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Class Ref="o27"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o29"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
 <c:TargetModels>
-<o:TargetModel Id="o60">
-<a:ObjectID>1D553DD7-5B1A-45D9-82D3-A941DABED6DE</a:ObjectID>
-<a:Name>Java</a:Name>
-<a:Code>Java</a:Code>
-<a:CreationDate>1416563359</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416923310</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
-<a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
+<o:TargetModel Id="o64">
+<a:ObjectID>71E1238A-D256-4A2A-85E9-0169974363AC</a:ObjectID>
+<a:Name>C#</a:Name>
+<a:Code>C#</a:Code>
+<a:CreationDate>1416647798</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416658691</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:TargetModelURL>file:///%_OBJLANG%/csharp.xol</a:TargetModelURL>
+<a:TargetModelID>D1E2D0BE-98BB-4413-890E-9D790F33B4DC</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o61">
-<a:ObjectID>FED27F42-3CB1-467B-A797-521B64E7FC70</a:ObjectID>
-<a:Name>WSDL for Java</a:Name>
-<a:Code>WSDLJava</a:Code>
-<a:CreationDate>1416563360</a:CreationDate>
-<a:Creator>THINKPAD</a:Creator>
-<a:ModificationDate>1416923310</a:ModificationDate>
-<a:Modifier>THINKPAD</a:Modifier>
-<a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
-<a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
+<o:TargetModel Id="o65">
+<a:ObjectID>EB7AF003-8824-4F40-AB16-279111ED7BFA</a:ObjectID>
+<a:Name>WSDL for .NET</a:Name>
+<a:Code>WSDLDotNet</a:Code>
+<a:CreationDate>1416647801</a:CreationDate>
+<a:Creator>chabba</a:Creator>
+<a:ModificationDate>1416658691</a:ModificationDate>
+<a:Modifier>chabba</a:Modifier>
+<a:TargetModelURL>file:///%_XEM%/WSDLDotNet.xem</a:TargetModelURL>
+<a:TargetModelID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o4"/>

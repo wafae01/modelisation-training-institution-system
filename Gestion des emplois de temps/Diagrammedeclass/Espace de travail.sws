@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{80D48C83-FA54-4F00-8DD0-2C03899925FB}" Loaded="No" Name="gestiondetemps" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="gestiondetemps.moo"/>
+		<Model Expanded="Yes" ID="{80D48C83-FA54-4F00-8DD0-2C03899925FB}" Name="gestiondetemps" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="gestiondetemps.moo"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
