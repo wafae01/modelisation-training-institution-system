@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Label="" LastModificationDate="1419193391" Name="ModeleOrienteObjet_Cplus" Objects="176" Symbols="70" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Label="" LastModificationDate="1419193680" Name="ModeleOrienteObjet_Cplus" Objects="176" Symbols="70" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -8045,9 +8045,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>titre</a:Code>
 <a:CreationDate>1419193327</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419193391</a:ModificationDate>
+<a:ModificationDate>1419193680</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o195">
