@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{64BBF2C7-862F-4774-83D2-41C0FC44CA88}" Label="" LastModificationDate="1419241486" Name="Diagramme_cas_utilisation_cplus" Objects="25" Symbols="18" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{64BBF2C7-862F-4774-83D2-41C0FC44CA88}" Label="" LastModificationDate="1419241515" Name="Diagramme_cas_utilisation_cplus" Objects="25" Symbols="18" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1376,11 +1376,13 @@ LABL 0 Arial,14,N</a:FontList>
 <o:UseCase Id="o11">
 <a:ObjectID>2D39B540-6967-42DC-AAD5-712AD52EA27A</a:ObjectID>
 <a:Name>Gestion des Niveau</a:Name>
-<a:Code>Gestion_des_Niveau</a:Code>
+<a:Code>Gestion_des_Niveaux</a:Code>
 <a:CreationDate>1419241434</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419241446</a:ModificationDate>
+<a:ModificationDate>1419241515</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
+<a:Comment>Première Années, Deuxième Années, Troisiem Années
+</a:Comment>
 </o:UseCase>
 <o:UseCase Id="o12">
 <a:ObjectID>9C7ABF99-A758-4354-9064-334BF2C86759</a:ObjectID>

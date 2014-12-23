@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Label="" LastModificationDate="1419352259" Name="ModeleOrienteObjet_Cplus" Objects="275" Symbols="111" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Label="" LastModificationDate="1419352531" Name="ModeleOrienteObjet_Cplus" Objects="253" Symbols="97" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -6411,7 +6411,7 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o173">
 <a:CreationDate>1419185020</a:CreationDate>
 <a:ModificationDate>1419352259</a:ModificationDate>
-<a:Rect>((-23213,80), (-7534,5279))</a:Rect>
+<a:Rect>((-23176,80), (-7534,5279))</a:Rect>
 <a:ListOfPoints>((-7534,5279),(-21189,5279),(-21189,80))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -6431,9 +6431,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o177">
 <a:CreationDate>1419185025</a:CreationDate>
-<a:ModificationDate>1419352259</a:ModificationDate>
-<a:Rect>((716,5183), (12015,7574))</a:Rect>
-<a:ListOfPoints>((716,5183),(4441,5183),(4441,7574),(12015,7574))</a:ListOfPoints>
+<a:ModificationDate>1419352531</a:ModificationDate>
+<a:Rect>((716,5183), (14190,7574))</a:Rect>
+<a:ListOfPoints>((716,5183),(4441,5183),(4441,7574),(14190,7574))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>0</a:LineColor>
@@ -6453,7 +6453,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o180">
 <a:CreationDate>1419351700</a:CreationDate>
 <a:ModificationDate>1419352259</a:ModificationDate>
-<a:Rect>((-402,-21201), (13677,-8781))</a:Rect>
+<a:Rect>((-365,-21201), (13677,-8781))</a:Rect>
 <a:ListOfPoints>((1472,-21201),(1472,-8782),(13677,-8782))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -6561,9 +6561,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o178">
 <a:CreationDate>1419184828</a:CreationDate>
-<a:ModificationDate>1419352259</a:ModificationDate>
+<a:ModificationDate>1419352531</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8224,1654), (17156,10344))</a:Rect>
+<a:Rect>((10399,1654), (19331,10344))</a:Rect>
 <a:LineColor>0</a:LineColor>
 <a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
