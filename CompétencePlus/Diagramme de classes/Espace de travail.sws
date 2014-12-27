@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Name="ModeleOrienteObjet_Cplus" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ModeleOrienteObjet_Cplus.moo"/>
+		<Model Expanded="Yes" ID="{5D1C9E9D-6F9C-46FB-8CD0-FF73E0163DC8}" Name="ModeleOrienteObjet_Cplus" Selected="Yes" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ModeleOrienteObjet_Cplus.mpd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
