@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Label="" LastModificationDate="1419518284" Name="ModeleOrienteObjet_Cplus" Objects="258" Symbols="98" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{389A56C6-AC36-40C3-A837-5E8ABD2D198C}" Label="" LastModificationDate="1419527814" Name="ModeleOrienteObjet_Cplus" Objects="238" Symbols="93" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -2107,7 +2107,7 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o35">
 <a:CreationDate>1419183226</a:CreationDate>
 <a:ModificationDate>1419342809</a:ModificationDate>
-<a:Rect>((-5810,-15908), (11834,-7775))</a:Rect>
+<a:Rect>((-5847,-15908), (11834,-7775))</a:Rect>
 <a:ListOfPoints>((-5810,-7775),(-5810,-14735),(11834,-14735))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -2128,7 +2128,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o39">
 <a:CreationDate>1419183226</a:CreationDate>
 <a:ModificationDate>1419342809</a:ModificationDate>
-<a:Rect>((-2644,-11754), (9211,2652))</a:Rect>
+<a:Rect>((-2607,-11754), (9174,2652))</a:Rect>
 <a:ListOfPoints>((7187,2652),(7187,-2514),(-770,-2514),(-770,-11754))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -2212,7 +2212,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o51">
 <a:CreationDate>1419343303</a:CreationDate>
 <a:ModificationDate>1419343318</a:ModificationDate>
-<a:Rect>((3306,-25042), (13403,-18127))</a:Rect>
+<a:Rect>((3231,-25042), (13328,-18127))</a:Rect>
 <a:ListOfPoints>((11454,-18127),(11454,-21982),(5255,-21982),(5255,-25042))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -2233,7 +2233,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o54">
 <a:CreationDate>1419346302</a:CreationDate>
 <a:ModificationDate>1419350781</a:ModificationDate>
-<a:Rect>((14265,-11791), (24256,-4837))</a:Rect>
+<a:Rect>((14302,-11791), (24219,-4837))</a:Rect>
 <a:ListOfPoints>((16139,-11791),(16139,-8520),(22232,-8520),(22232,-4837))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -12744,7 +12744,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Code>C# 2</a:Code>
 <a:CreationDate>1419177797</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419517892</a:ModificationDate>
+<a:ModificationDate>1419527814</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/csharp2.xol</a:TargetModelURL>
 <a:TargetModelID>48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9</a:TargetModelID>
@@ -12759,7 +12759,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Code>WSDLDotNet</a:Code>
 <a:CreationDate>1419177797</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419517893</a:ModificationDate>
+<a:ModificationDate>1419527814</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLDotNet.xem</a:TargetModelURL>
 <a:TargetModelID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetModelID>
@@ -12774,7 +12774,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Code>ModeleOrienteObjet_Cplus</a:Code>
 <a:CreationDate>1419183708</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419518115</a:ModificationDate>
+<a:ModificationDate>1419528865</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///.</a:TargetModelURL>
 <a:TargetModelID>389A56C6-AC36-40C3-A837-5E8ABD2D198C</a:TargetModelID>
