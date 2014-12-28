@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{5D1C9E9D-6F9C-46FB-8CD0-FF73E0163DC8}" Label="" LastModificationDate="1419700624" Name="ModeleOrienteObjet_Cplus" Objects="367" Symbols="97" Target="MySQL 5.0" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{5D1C9E9D-6F9C-46FB-8CD0-FF73E0163DC8}" Label="" LastModificationDate="1419701231" Name="ModeleOrienteObjet_Cplus" Objects="367" Symbols="97" Target="MySQL 5.0" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -3175,9 +3175,9 @@ LABL 0 Arial,14,N</a:FontList>
 </c:Object>
 </o:PackageSymbol>
 <o:PackageSymbol Id="o10">
-<a:ModificationDate>1419699803</a:ModificationDate>
+<a:ModificationDate>1419701012</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-100981,39619), (-88945,44639))</a:Rect>
+<a:Rect>((-105135,39434), (-85973,44454))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>11711154</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
@@ -3194,9 +3194,9 @@ LABL 0 Arial,14,N</a:FontList>
 </c:Object>
 </o:PackageSymbol>
 <o:PackageSymbol Id="o12">
-<a:ModificationDate>1419695478</a:ModificationDate>
+<a:ModificationDate>1419701231</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-120096,46421), (-111472,50021))</a:Rect>
+<a:Rect>((-122637,46669), (-107109,50269))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>11711154</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
@@ -3207,6 +3207,7 @@ LABL 0 Arial,14,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
 <o:Package Ref="o13"/>
 </c:Object>
@@ -3231,9 +3232,9 @@ LABL 0 Arial,14,N</a:FontList>
 </c:Object>
 </o:PackageSymbol>
 <o:PackageSymbol Id="o16">
-<a:ModificationDate>1419695478</a:ModificationDate>
+<a:ModificationDate>1419700749</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-121164,41198), (-113890,44798))</a:Rect>
+<a:Rect>((-121163,39847), (-108349,44797))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>11711154</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
@@ -3244,6 +3245,7 @@ LABL 0 Arial,14,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
 <o:Package Ref="o17"/>
 </c:Object>
@@ -3359,9 +3361,9 @@ LABL 0 Arial,14,N</a:FontList>
 </c:Object>
 </o:PackageSymbol>
 <o:PackageSymbol Id="o30">
-<a:ModificationDate>1419695478</a:ModificationDate>
+<a:ModificationDate>1419701015</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-122374,35529), (-116976,39128))</a:Rect>
+<a:Rect>((-121196,35529), (-107544,39128))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>11711154</a:LineColor>
 <a:FillColor>12632256</a:FillColor>
@@ -3372,14 +3374,15 @@ LABL 0 Arial,12,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
 <o:Package Ref="o31"/>
 </c:Object>
 </o:PackageSymbol>
 <o:PackageSymbol Id="o32">
-<a:ModificationDate>1419699868</a:ModificationDate>
+<a:ModificationDate>1419701016</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-107512,31814), (-98664,35413))</a:Rect>
+<a:Rect>((-105343,34541), (-96495,38140))</a:Rect>
 <a:LineColor>11711154</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -19619,7 +19622,7 @@ Shadow=0
 <a:Code>MYSQL50</a:Code>
 <a:CreationDate>1419695115</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419700624</a:ModificationDate>
+<a:ModificationDate>1419700659</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_DBMS%/mysql50.xdb</a:TargetModelURL>
 <a:TargetModelID>F4F16ECD-F2F1-4006-AF6F-638D5C65F35E</a:TargetModelID>
@@ -19634,7 +19637,7 @@ Shadow=0
 <a:Code>MODELEORIENTEOBJET_CPLUS</a:Code>
 <a:CreationDate>0</a:CreationDate>
 <a:Creator/>
-<a:ModificationDate>1419700637</a:ModificationDate>
+<a:ModificationDate>1419701448</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///.</a:TargetModelURL>
 <a:TargetModelID>5D1C9E9D-6F9C-46FB-8CD0-FF73E0163DC8</a:TargetModelID>
@@ -19674,7 +19677,7 @@ Shadow=0
 <a:Code>ModeleOrienteObjet_Cplus</a:Code>
 <a:CreationDate>1419695125</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419700624</a:ModificationDate>
+<a:ModificationDate>1419700659</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/CompétencePlus/Diagramme de classes/ModeleOrienteObjet_Cplus.moo</a:TargetModelURL>
 <a:TargetModelID>389A56C6-AC36-40C3-A837-5E8ABD2D198C</a:TargetModelID>
