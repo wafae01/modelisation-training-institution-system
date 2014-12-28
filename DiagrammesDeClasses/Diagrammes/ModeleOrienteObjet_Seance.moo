@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{3C707611-EBF0-49A6-99BA-600FE485129D}" Label="" LastModificationDate="1419784534" Name="ModeleOrienteObjet_Seance" Objects="28" Symbols="11" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{3C707611-EBF0-49A6-99BA-600FE485129D}" Label="" LastModificationDate="1419789973" Name="ModeleOrienteObjet_Seance" Objects="28" Symbols="11" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1397,7 +1397,7 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o6">
 <a:CreationDate>1419782557</a:CreationDate>
 <a:ModificationDate>1419782557</a:ModificationDate>
-<a:Rect>((-2737,4563), (3937,14550))</a:Rect>
+<a:Rect>((-2700,4563), (3900,14550))</a:Rect>
 <a:ListOfPoints>((-900,4563),(-900,9682),(1950,9682),(1950,14550))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -1418,8 +1418,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o10">
 <a:CreationDate>1419782561</a:CreationDate>
 <a:ModificationDate>1419782582</a:ModificationDate>
-<a:Rect>((-25050,3282), (-6263,11394))</a:Rect>
-<a:ListOfPoints>((-6300,3282),(-6300,10220),(-25050,10220))</a:ListOfPoints>
+<a:Rect>((-25050,3282), (-6300,11224))</a:Rect>
+<a:ListOfPoints>((-6300,3282),(-6300,10050),(-25050,10050))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1460,8 +1460,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o16">
 <a:CreationDate>1419782563</a:CreationDate>
 <a:ModificationDate>1419782563</a:ModificationDate>
-<a:Rect>((-3037,-10469), (8925,-293))</a:Rect>
-<a:ListOfPoints>((-3000,-293),(-3000,-9296),(8925,-9296))</a:ListOfPoints>
+<a:Rect>((-3000,-9873), (8925,-293))</a:Rect>
+<a:ListOfPoints>((-3000,-293),(-3000,-8700),(8925,-8700))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1481,8 +1481,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o19">
 <a:CreationDate>1419782564</a:CreationDate>
 <a:ModificationDate>1419782564</a:ModificationDate>
-<a:Rect>((-600,719), (16800,3127))</a:Rect>
-<a:ListOfPoints>((-600,719),(6359,719),(6359,3127),(16800,3127))</a:ListOfPoints>
+<a:Rect>((-600,719), (16800,2926))</a:Rect>
+<a:ListOfPoints>((-600,719),(6359,719),(6359,2926),(16800,2926))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1549,7 +1549,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419782267</a:CreationDate>
 <a:ModificationDate>1419782489</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((10351,977), (23249,5773))</a:Rect>
+<a:Rect>((10351,-970), (23249,7720))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1572,7 +1572,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419782297</a:CreationDate>
 <a:ModificationDate>1419782298</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((4313,-12672), (18786,-7876))</a:Rect>
+<a:Rect>((4313,-14132), (18786,-6416))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1595,7 +1595,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419782323</a:CreationDate>
 <a:ModificationDate>1419782580</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-34424,8102), (-21526,12898))</a:Rect>
+<a:Rect>((-34424,6642), (-21526,14358))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1919,7 +1919,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>C# 2</a:Code>
 <a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419784534</a:ModificationDate>
+<a:ModificationDate>1419789973</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/csharp2.xol</a:TargetModelURL>
 <a:TargetModelID>48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9</a:TargetModelID>
@@ -1934,7 +1934,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>WSDLDotNet</a:Code>
 <a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419784534</a:ModificationDate>
+<a:ModificationDate>1419789973</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLDotNet.xem</a:TargetModelURL>
 <a:TargetModelID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetModelID>
@@ -1963,10 +1963,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ObjectID>56E79A81-29C2-4D28-99C3-2C99252269D4</a:ObjectID>
 <a:Name>ModeleOrienteObjet_Prevision</a:Name>
 <a:Code>ModeleOrienteObjet_Prevision</a:Code>
-<a:ExtractionID>6357070</a:ExtractionID>
 <a:CreationDate>1419782267</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419784446</a:ModificationDate>
+<a:ModificationDate>1419789973</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Prevision.moo</a:TargetModelURL>
 <a:TargetModelID>731BE618-FD25-4056-A1BB-8EE94E30F1FE</a:TargetModelID>
@@ -1980,10 +1979,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ObjectID>C2B238B4-19BC-419F-993B-C6DC3D12D92A</a:ObjectID>
 <a:Name>ModeleOrienteObjet_Configuration</a:Name>
 <a:Code>ModeleOrienteObjet_Configuration</a:Code>
-<a:ExtractionID>3997811</a:ExtractionID>
 <a:CreationDate>1419782297</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419784448</a:ModificationDate>
+<a:ModificationDate>1419789973</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Configuration.moo</a:TargetModelURL>
 <a:TargetModelID>4E101198-B68C-4664-9EF2-523EB34F3A53</a:TargetModelID>

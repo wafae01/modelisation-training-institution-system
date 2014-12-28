@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{731BE618-FD25-4056-A1BB-8EE94E30F1FE}" Label="" LastModificationDate="1419784442" Name="ModeleOrienteObjet_Prevision" Objects="32" Symbols="13" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{731BE618-FD25-4056-A1BB-8EE94E30F1FE}" Label="" LastModificationDate="1419791246" Name="ModeleOrienteObjet_Prevision" Objects="35" Symbols="13" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>ModeleOrienteObjet_Prevision</a:Code>
 <a:CreationDate>1419780748</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419782462</a:ModificationDate>
+<a:ModificationDate>1419791235</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -22,7 +22,1236 @@ GenerationPath=C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusDAL\Packag
 GenerationOptions=
 GenerationTasks=
 GenerationTargets=
-GenerationSelections=</a:PackageOptionsText>
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\Circular inheritance]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\Circular dependency]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe]
+
+[FolderOptions\CheckModel\Classe\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Empty classifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Persistent class]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Association Identifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Visibility]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Constructor return type]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Constructor modifier]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Method implementation]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Role name assignment]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Role name unicity]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanInfo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\JavaBean]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Inheritance on Enum Type (Java)]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassDefinition]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassBusinessImpl]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassHomeImpl]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbCreate]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbPostCreate]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbFind]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbHome]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\BeanClassEjbSelect]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassDefinition]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassAttributes]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\PKClassExistence]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\Mapping]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\MappingSFMap]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CsfrWrongBound]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\ClssInvalidGenMode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CSharp_2_Class_Structure_Visibilit__des_membres_de_structure]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CSharp_2_Classifier_Mot_cl__CSharp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe\CSharp_2_Class_Parent_non_autoris_]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface]
+
+[FolderOptions\CheckModel\Interface\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Empty classifier]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Visibility]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Interface constructor]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\Association navigability]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeCreateMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeFindMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\HomeMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\ObjectBusinessMethods]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\CsfrWrongBound]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\CSharp_2_Interface_Classificateurs_internes_d_interface]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface\CSharp_2_Classifier_Mot_cl__CSharp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut]
+
+[FolderOptions\CheckModel\Classe.Attribut\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\Datatype assignment]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\Extend final class]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Attribut\CSharp_2_Attribute_Mot_cl__CSharp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant]
+
+[FolderOptions\CheckModel\Classe.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\EmptyColl - ATTR]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Identifiant\CheckIncludeColl - Clss]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut]
+
+[FolderOptions\CheckModel\Interface.Attribut\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Datatype assignment]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Extend final class]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\DomainDivergence]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\Event parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Attribut\CSharp_2_Attribute_Mot_cl__CSharp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération]
+
+[FolderOptions\CheckModel\Classe.Opération\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Return type assignment]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Abstract operation&#39;s body]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Abstract operation]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Operation signature]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Overriding operation]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\Enum Abstract Methods]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\CSharp_2_Operation_Conversion_Operator_Signature_de_l_op_rateur_de_conversion]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\CSharp_2_Operation_Operator_Signature_d_op_rateur_pouvant__tre_surcharg_]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération\CSharp_2_Operation_Mot_cl__CSharp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port]
+
+[FolderOptions\CheckModel\Classe.Port\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Port\PortIsolated]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Partie]
+
+[FolderOptions\CheckModel\Classe.Partie\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Partie\PartLink]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Partie\PartComposition]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage]
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnNull]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Classe.Connecteur d&#39;assemblage\AscnIntf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Interface.Opération]
+
+[FolderOptions\CheckModel\Interface.Opération\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Return type assignment]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\Parameter datatype]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\CSharp_2_Operation_Conversion_Operator_Signature_de_l_op_rateur_de_conversion]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\CSharp_2_Operation_Operator_Signature_d_op_rateur_pouvant__tre_surcharg_]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération\CSharp_2_Operation_Mot_cl__CSharp]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation]
+
+[FolderOptions\CheckModel\Généralisation\Redundant Generalizations]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Multiple inheritance (Java)]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Final datatype with initial value]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Non-Persistent Specifying Attribute]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Généralisation\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation]
+
+[FolderOptions\CheckModel\Réalisation\Redundant Realizations]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Generic links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réalisation\Bound links]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur]
+
+[FolderOptions\CheckModel\Acteur\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Acteur\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation]
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Cas d&#39;utilisation\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet]
+
+[FolderOptions\CheckModel\Objet\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien entre objets]
+
+[FolderOptions\CheckModel\Lien entre objets\Redundant Instance links]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction]
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefDiagram]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefLifelines]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefInpMsg]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Référence d&#39;interaction\IRefOutMsg]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message]
+
+[FolderOptions\CheckModel\Message\MessageNoNumber]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Message\MessageManyLinks]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Message\Actor-Message]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité]
+
+[FolderOptions\CheckModel\Activité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckActvTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckNoStart]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité\CheckActvReuse]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet]
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud d&#39;objet\CheckObndDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision]
+
+[FolderOptions\CheckModel\Décision\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Décision\CheckDcsnCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation]
+
+[FolderOptions\CheckModel\Synchronisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Synchronisation\CheckSyncCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation]
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Unité d&#39;organisation\CheckPrntOrgnLoop]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début]
+
+[FolderOptions\CheckModel\Début\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Début\CheckStrtTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin]
+
+[FolderOptions\CheckModel\Fin\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fin\CheckStrtTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition]
+
+[FolderOptions\CheckModel\Transition\CheckTrnsSrc]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\CheckTrnsCond]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Transition\TrnsDuplSTAT]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux]
+
+[FolderOptions\CheckModel\Flux\CheckFlowSrc]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowNoCond]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\CheckFlowCond]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Flux\FlowDuplOOMACTV]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement]
+
+[FolderOptions\CheckModel\Evénement\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement\EvntUnused]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat]
+
+[FolderOptions\CheckModel\Etat\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\StatTrns]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\StatNoStart]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat\ActnOrder]
+CheckSeverity=Yes
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action]
+
+[FolderOptions\CheckModel\Etat.Action\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\ActnEvent]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Action\ActnDupl]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction]
+
+[FolderOptions\CheckModel\Point de jonction\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Point de jonction\JnPtCompl]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant]
+
+[FolderOptions\CheckModel\Composant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\Single]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\EJBClassifiers]
+CheckSeverity=No
+FixRequested=Yes
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\Method Soap Message redefinition]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant\WSDLDotNet_Component_Service_Web_vide]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port]
+
+[FolderOptions\CheckModel\Composant.Port\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Port\PortIsolated]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage]
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnNull]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Composant.Connecteur d&#39;assemblage\AscnIntf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Noeud]
+
+[FolderOptions\CheckModel\Noeud\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Noeud\Empty Node]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant]
+
+[FolderOptions\CheckModel\Instance de composant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Component Instance with null Component]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Duplicate Component Instance]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Instance de composant\Isolated Component Instance]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données]
+
+[FolderOptions\CheckModel\Source de données\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\EmptyColl - MODLSRC]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Source de données\Data Source Target Consistency]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée]
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre d&#39;entrée\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie]
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Activité.Paramètre de sortie\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération.Paramètre]
+
+[FolderOptions\CheckModel\Classe.Opération.Paramètre\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération.Paramètre\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Classe.Opération.Paramètre\CSharp_2_Parameter_Argument_de_variable_invalide]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération.Paramètre]
+
+[FolderOptions\CheckModel\Interface.Opération.Paramètre\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération.Paramètre\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Interface.Opération.Paramètre\CSharp_2_Parameter_Argument_de_variable_invalide]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Evénement.Paramètre]
+
+[FolderOptions\CheckModel\Etat.Evénement.Paramètre\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Evénement.Paramètre\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Etat.Evénement.Paramètre\CSharp_2_Parameter_Argument_de_variable_invalide]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement.Paramètre]
+
+[FolderOptions\CheckModel\Evénement.Paramètre\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement.Paramètre\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Evénement.Paramètre\CSharp_2_Parameter_Argument_de_variable_invalide]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Cld]
@@ -941,14 +2170,33 @@ IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%PARENT%_%COLUMN%
 ColnFKNameUse=Yes
+PreserveMode=Yes
 
 [ModelOptions\Generate\Xsm]
 CheckModel=Yes
 SaveLinks=Yes
 ORMapping=No
 NameToCode=No</a:ModelOptionsText>
-<c:ObjectLanguage>
+<c:GeneratedModels>
 <o:Shortcut Id="o3">
+<a:ObjectID>42828B74-AE8D-4C6A-90F6-DABD02CEAA04</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Prevision</a:Name>
+<a:Code>MODELEORIENTEOBJET_PREVISION</a:Code>
+<a:CreationDate>1419791235</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419791235</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:History>ModeleOrienteObjet_Module (C:\Users\ESSARRAJ\Documents\GitHub\modelisation-cplus\DiagrammesDeClasses\Diagrammes\ModeleOrienteObjet_Module.moo)	ModeleOrienteObjet_Module (C:\Users\ESSARRAJ\Documents\GitHub\modelisation-cplus\DiagrammesDeClasses\Diagrammes\ModeleOrienteObjet_Module.mpd)
+ModeleOrienteObjet_Configuration (C:\Users\ESSARRAJ\Documents\GitHub\modelisation-cplus\DiagrammesDeClasses\Diagrammes\ModeleOrienteObjet_Configuration.moo)	ModeleOrienteObjet_Configuration (C:\Users\ESSARRAJ\Documents\GitHub\modelisation-cplus\DiagrammesDeClasses\Diagrammes\ModeleOrienteObjet_Configuration.mpd)
+ModeleOrienteObjet_Sequences (C:\Users\ESSARRAJ\Documents\GitHub\modelisation-cplus\DiagrammesDeClasses\Diagrammes\ModeleOrienteObjet_Sequences.moo)	ModeleOrienteObjet_Sequences (C:\Users\ESSARRAJ\Documents\GitHub\modelisation-cplus\DiagrammesDeClasses\Diagrammes\ModeleOrienteObjet_Sequences.mpd)
+</a:History>
+<a:TargetStereotype/>
+<a:TargetID>663E06C9-1F99-44D0-9353-4BA65265F6AF</a:TargetID>
+<a:TargetClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetClassID>
+</o:Shortcut>
+</c:GeneratedModels>
+<c:ObjectLanguage>
+<o:Shortcut Id="o4">
 <a:ObjectID>3CCA575D-5BB9-4641-A11C-C66B1F06CAE4</a:ObjectID>
 <a:Name>C# 2.0</a:Name>
 <a:Code>C# 2</a:Code>
@@ -962,7 +2210,7 @@ NameToCode=No</a:ModelOptionsText>
 </o:Shortcut>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
-<o:Shortcut Id="o4">
+<o:Shortcut Id="o5">
 <a:ObjectID>95BC2B3B-0FA4-4D0D-888D-468701FAEA5E</a:ObjectID>
 <a:Name>WSDL for .NET</a:Name>
 <a:Code>WSDLDotNet</a:Code>
@@ -976,7 +2224,7 @@ NameToCode=No</a:ModelOptionsText>
 </o:Shortcut>
 </c:ExtendedModelDefinitions>
 <c:ClassDiagrams>
-<o:ClassDiagram Id="o5">
+<o:ClassDiagram Id="o6">
 <a:ObjectID>6C1D0617-1D50-44DF-BA2E-6B7E2102D19B</a:ObjectID>
 <a:Name>DiagrammeClasses_Prevision</a:Name>
 <a:Code>DiagrammeClasses_Prevision</a:Code>
@@ -1394,56 +2642,77 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>7</a:PaperSource>
 <c:Symbols>
-<o:AssociationSymbol Id="o6">
+<o:AssociationSymbol Id="o7">
 <a:CreationDate>1419781075</a:CreationDate>
-<a:ModificationDate>1419781075</a:ModificationDate>
-<a:Rect>((-2501,-9570), (13230,-837))</a:Rect>
-<a:ListOfPoints>((-2464,-837),(-2464,-8397),(13230,-8397))</a:ListOfPoints>
+<a:ModificationDate>1419791025</a:ModificationDate>
+<a:Rect>((-7549,-9605), (9780,733))</a:Rect>
+<a:ListOfPoints>((-7549,733),(-7549,-8432),(9780,-8432))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
+<a:LineColor>0</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
+<o:ClassSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o8"/>
+<o:ClassSymbol Ref="o9"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o9"/>
+<o:Association Ref="o10"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationSymbol Id="o10">
+<o:AssociationSymbol Id="o11">
 <a:CreationDate>1419781200</a:CreationDate>
-<a:ModificationDate>1419781268</a:ModificationDate>
-<a:Rect>((1951,-19725), (21787,-9675))</a:Rect>
-<a:ListOfPoints>((19950,-9675),(19950,-19725),(1951,-19725))</a:ListOfPoints>
+<a:ModificationDate>1419790910</a:ModificationDate>
+<a:Rect>((-2999,-16875), (18374,-9450))</a:Rect>
+<a:ListOfPoints>((16500,-9450),(16500,-16875),(-2999,-16875))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
+<a:LineColor>0</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o8"/>
+<o:ClassSymbol Ref="o9"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o11"/>
+<o:ClassSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o12"/>
+<o:Association Ref="o13"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationSymbol Id="o13">
+<o:AssociationSymbol Id="o14">
 <a:CreationDate>1419781297</a:CreationDate>
-<a:ModificationDate>1419781310</a:ModificationDate>
-<a:Rect>((23813,-15438), (31537,675))</a:Rect>
-<a:ListOfPoints>((23850,-7200),(23850,-15402),(29550,-15402),(29550,675))</a:ListOfPoints>
+<a:ModificationDate>1419790910</a:ModificationDate>
+<a:Rect>((20400,-15402), (25274,-150))</a:Rect>
+<a:ListOfPoints>((20400,-7479),(20400,-15402),(23250,-15402),(23250,-150))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
+<a:LineColor>0</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o9"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o15"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o16"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o17">
+<a:CreationDate>1419781340</a:CreationDate>
+<a:ModificationDate>1419791029</a:ModificationDate>
+<a:Rect>((-21900,-4273), (-6800,-1075))</a:Rect>
+<a:ListOfPoints>((-6800,-3100),(-11083,-3100),(-11083,-2250),(-21900,-2250))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>0</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
@@ -1451,107 +2720,61 @@ MULA 0 Arial,8,N</a:FontList>
 <o:ClassSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o14"/>
+<o:ClassSymbol Ref="o18"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o15"/>
+<o:Association Ref="o19"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationSymbol Id="o16">
-<a:CreationDate>1419781340</a:CreationDate>
-<a:ModificationDate>1419781399</a:ModificationDate>
-<a:Rect>((-21675,-5073), (-1800,-1600))</a:Rect>
-<a:ListOfPoints>((-1800,-3900),(-11083,-3900),(-11083,-2775),(-21675,-2775))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-MULA 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ClassSymbol Ref="o17"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Association Ref="o18"/>
-</c:Object>
-</o:AssociationSymbol>
-<o:AssociationSymbol Id="o19">
+<o:AssociationSymbol Id="o20">
 <a:CreationDate>1419781372</a:CreationDate>
-<a:ModificationDate>1419782435</a:ModificationDate>
-<a:Rect>((-21450,-525), (-1763,11149))</a:Rect>
-<a:ListOfPoints>((-1800,-525),(-1800,9975),(-21450,9975))</a:ListOfPoints>
+<a:ModificationDate>1419791027</a:ModificationDate>
+<a:Rect>((-18900,1123), (-6800,11029))</a:Rect>
+<a:ListOfPoints>((-6800,1123),(-6800,9855),(-18900,9855))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
+<a:LineColor>0</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
+<o:ClassSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o20"/>
+<o:ClassSymbol Ref="o21"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o21"/>
+<o:Association Ref="o22"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationSymbol Id="o22">
+<o:AssociationSymbol Id="o23">
 <a:CreationDate>1419782462</a:CreationDate>
-<a:ModificationDate>1419782462</a:ModificationDate>
-<a:Rect>((3300,-1538), (12156,9820))</a:Rect>
-<a:ListOfPoints>((3300,-1538),(10169,-1538),(10169,9820))</a:ListOfPoints>
+<a:ModificationDate>1419791025</a:ModificationDate>
+<a:Rect>((-1054,-145), (10349,9262))</a:Rect>
+<a:ListOfPoints>((-1054,-145),(8325,-145),(8325,9262))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
+<a:LineColor>0</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
+<o:ClassSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o23"/>
+<o:ClassSymbol Ref="o24"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o24"/>
+<o:Association Ref="o25"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:ClassSymbol Id="o7">
-<a:CreationDate>1419781075</a:CreationDate>
-<a:ModificationDate>1419781075</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-4952,-5887), (5034,1335))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>16744448</a:LineColor>
-<a:FillColor>16777215</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-CNTR 0 Arial,8,N
-Attributes 0 Arial,8,N
-ClassPrimaryAttribute 0 Arial,8,U
-Operations 0 Arial,8,N
-InnerClassifiers 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<a:ManuallyResized>1</a:ManuallyResized>
-<c:Object>
-<o:Class Ref="o25"/>
-</c:Object>
-</o:ClassSymbol>
 <o:ClassSymbol Id="o8">
 <a:CreationDate>1419781075</a:CreationDate>
-<a:ModificationDate>1419781075</a:ModificationDate>
+<a:ModificationDate>1419791025</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((9147,-13065), (25183,-3415))</a:Rect>
+<a:Rect>((-10352,-5586), (900,3450))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>16744448</a:LineColor>
+<a:LineColor>0</a:LineColor>
 <a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
@@ -1570,13 +2793,14 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Class Ref="o26"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o11">
-<a:CreationDate>1419781192</a:CreationDate>
-<a:ModificationDate>1419781268</a:ModificationDate>
+<o:ClassSymbol Id="o9">
+<a:CreationDate>1419781075</a:CreationDate>
+<a:ModificationDate>1419790933</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-9261,-23282), (5212,-15566))</a:Rect>
-<a:LineColor>16744448</a:LineColor>
-<a:FillColor>16770222</a:FillColor>
+<a:Rect>((5697,-12150), (21733,-4464))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1589,17 +2813,18 @@ LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Shortcut Ref="o27"/>
+<o:Class Ref="o27"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o14">
-<a:CreationDate>1419781294</a:CreationDate>
-<a:ModificationDate>1419781301</a:ModificationDate>
+<o:ClassSymbol Id="o12">
+<a:CreationDate>1419781192</a:CreationDate>
+<a:ModificationDate>1419790910</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((22613,-334), (37086,5434))</a:Rect>
-<a:LineColor>16744448</a:LineColor>
-<a:FillColor>16770222</a:FillColor>
+<a:Rect>((-14211,-20432), (262,-12716))</a:Rect>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1616,13 +2841,13 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o28"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o17">
-<a:CreationDate>1419781337</a:CreationDate>
-<a:ModificationDate>1419781399</a:ModificationDate>
+<o:ClassSymbol Id="o15">
+<a:CreationDate>1419781294</a:CreationDate>
+<a:ModificationDate>1419790910</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-31686,-8057), (-17213,-341))</a:Rect>
-<a:LineColor>16744448</a:LineColor>
-<a:FillColor>16770222</a:FillColor>
+<a:Rect>((16313,-1159), (30786,4609))</a:Rect>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1639,13 +2864,13 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o29"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o20">
-<a:CreationDate>1419781366</a:CreationDate>
-<a:ModificationDate>1419782435</a:ModificationDate>
+<o:ClassSymbol Id="o18">
+<a:CreationDate>1419781337</a:CreationDate>
+<a:ModificationDate>1419791029</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-30260,6193), (-17889,15856))</a:Rect>
-<a:LineColor>16744448</a:LineColor>
-<a:FillColor>16770222</a:FillColor>
+<a:Rect>((-31911,-7532), (-17438,184))</a:Rect>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1662,13 +2887,13 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o30"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o23">
-<a:CreationDate>1419782459</a:CreationDate>
-<a:ModificationDate>1419782460</a:ModificationDate>
+<o:ClassSymbol Id="o21">
+<a:CreationDate>1419781366</a:CreationDate>
+<a:ModificationDate>1419791027</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((5663,8664), (19236,13460))</a:Rect>
-<a:LineColor>16744448</a:LineColor>
-<a:FillColor>16770222</a:FillColor>
+<a:Rect>((-27711,6454), (-15338,15146))</a:Rect>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1685,24 +2910,47 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o31"/>
 </c:Object>
 </o:ClassSymbol>
+<o:ClassSymbol Id="o24">
+<a:CreationDate>1419782459</a:CreationDate>
+<a:ModificationDate>1419790910</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((3436,7167), (18163,15857))</a:Rect>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Shortcut Ref="o32"/>
+</c:Object>
+</o:ClassSymbol>
 </c:Symbols>
 </o:ClassDiagram>
 </c:ClassDiagrams>
 <c:DefaultDiagram>
-<o:ClassDiagram Ref="o5"/>
+<o:ClassDiagram Ref="o6"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o25">
+<o:Class Id="o26">
 <a:ObjectID>121BE29E-3B21-47EA-919D-01A4998283E3</a:ObjectID>
 <a:Name>PrévisionSéance</a:Name>
 <a:Code>PrevisionSeance</a:Code>
 <a:CreationDate>1419781075</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419781075</a:ModificationDate>
+<a:ModificationDate>1419790969</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:InnerClassDiagrams>
-<o:ClassDiagram Id="o32">
+<o:ClassDiagram Id="o33">
 <a:ObjectID>034EDF8E-517B-440D-9392-A4B8747A9399</a:ObjectID>
 <a:Name>DiagrammeClasses_1</a:Name>
 <a:Code>DiagrammeClasses_1</a:Code>
@@ -2122,10 +3370,21 @@ Shadow=0</a:DisplayPreferences>
 </o:ClassDiagram>
 </c:InnerClassDiagrams>
 <c:DefaultDiagram>
-<o:ClassDiagram Ref="o32"/>
+<o:ClassDiagram Ref="o33"/>
 </c:DefaultDiagram>
 <c:Attributes>
-<o:Attribute Id="o33">
+<o:Attribute Id="o34">
+<a:ObjectID>A512CE8E-8982-482F-B0E5-3F452D1A7F1A</a:ObjectID>
+<a:Name>Id</a:Name>
+<a:Code>Id</a:Code>
+<a:CreationDate>1419781075</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419790957</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o35">
 <a:ObjectID>EECC9F53-E236-4C4E-949A-14FD4A8687D0</a:ObjectID>
 <a:Name>Titre</a:Name>
 <a:Code>titre</a:Code>
@@ -2136,29 +3395,18 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o34">
+<o:Attribute Id="o36">
 <a:ObjectID>CB483E8B-A021-45CB-875A-843FC9DC1076</a:ObjectID>
 <a:Name>Objectif</a:Name>
 <a:Code>objectif</a:Code>
 <a:CreationDate>1419781075</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419781075</a:ModificationDate>
+<a:ModificationDate>1419790951</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o35">
-<a:ObjectID>A512CE8E-8982-482F-B0E5-3F452D1A7F1A</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>Id</a:Code>
-<a:CreationDate>1419781075</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419781075</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o36">
+<o:Attribute Id="o37">
 <a:ObjectID>A5A92C2E-356C-49C1-B7C5-0C0713D1685D</a:ObjectID>
 <a:Name>Ordre</a:Name>
 <a:Code>ordre</a:Code>
@@ -2169,7 +3417,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o37">
+<o:Attribute Id="o38">
 <a:ObjectID>053BC364-A075-4B9C-96CF-4973933187D3</a:ObjectID>
 <a:Name>Durée</a:Name>
 <a:Code>duree</a:Code>
@@ -2181,8 +3429,25 @@ Shadow=0</a:DisplayPreferences>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
+<c:Identifiers>
+<o:Identifier Id="o39">
+<a:ObjectID>8A576771-F558-49A6-92EB-065E1894E625</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>Identifiant_1</a:Code>
+<a:CreationDate>1419790956</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419790957</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<c:Identifier.Attributes>
+<o:Attribute Ref="o34"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o39"/>
+</c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o26">
+<o:Class Id="o27">
 <a:ObjectID>ADBA6BB8-AA41-4E77-B885-250E1C6DA8B7</a:ObjectID>
 <a:Name>Activite</a:Name>
 <a:Code>Activite</a:Code>
@@ -2192,7 +3457,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o38">
+<o:Attribute Id="o40">
 <a:ObjectID>728F592B-B63E-4B74-9FFC-ECAE568ECD81</a:ObjectID>
 <a:Name>Id</a:Name>
 <a:Code>Id</a:Code>
@@ -2203,7 +3468,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o39">
+<o:Attribute Id="o41">
 <a:ObjectID>DE7ADDB6-5E0C-427C-B280-EE6B9BCB59F8</a:ObjectID>
 <a:Name>Objectif</a:Name>
 <a:Code>Objectif</a:Code>
@@ -2214,7 +3479,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o40">
+<o:Attribute Id="o42">
 <a:ObjectID>D9C7CFE3-65AA-499A-80C4-1046B6A62432</a:ObjectID>
 <a:Name>Duree</a:Name>
 <a:Code>Duree</a:Code>
@@ -2225,20 +3490,20 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o41">
+<o:Attribute Id="o43">
 <a:ObjectID>15787E28-FA41-45E6-9214-950993B316CE</a:ObjectID>
 <a:Name>Commentaire</a:Name>
 <a:Code>Commentaire</a:Code>
 <a:CreationDate>1419781075</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419781075</a:ModificationDate>
+<a:ModificationDate>1419790928</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
 </o:Class>
-<o:Shortcut Id="o27">
+<o:Shortcut Id="o28">
 <a:ObjectID>4A1A7006-7E3F-42F1-B112-1D4BB49FB002</a:ObjectID>
 <a:Name>StratégiePédagogie</a:Name>
 <a:Code>StrategiePedagogie</a:Code>
@@ -2251,7 +3516,7 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 <a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
 </o:Shortcut>
-<o:Shortcut Id="o28">
+<o:Shortcut Id="o29">
 <a:ObjectID>858CF657-C9CB-4969-9B8B-B2A236B85A7D</a:ObjectID>
 <a:Name>CatégogieActivité</a:Name>
 <a:Code>CategogieActivite</a:Code>
@@ -2264,7 +3529,7 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 <a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
 </o:Shortcut>
-<o:Shortcut Id="o29">
+<o:Shortcut Id="o30">
 <a:ObjectID>48B56D9B-1C1C-49C3-94F7-142090448917</a:ObjectID>
 <a:Name>CatégogiesSalleFormation</a:Name>
 <a:Code>CategogiesSalleFormation</a:Code>
@@ -2277,7 +3542,7 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 <a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
 </o:Shortcut>
-<o:Shortcut Id="o30">
+<o:Shortcut Id="o31">
 <a:ObjectID>CEEF0433-61F1-4395-84DA-E0CFECD439B4</a:ObjectID>
 <a:Name>ContenuePrecision</a:Name>
 <a:Code>ContenuePrecision</a:Code>
@@ -2290,7 +3555,7 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 <a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
 </o:Shortcut>
-<o:Shortcut Id="o31">
+<o:Shortcut Id="o32">
 <a:ObjectID>D02C1809-3449-48B8-8AA2-44A3B08095C3</a:ObjectID>
 <a:Name>Séquences</a:Name>
 <a:Code>Sequences</a:Code>
@@ -2305,7 +3570,7 @@ Shadow=0</a:DisplayPreferences>
 </o:Shortcut>
 </c:Classes>
 <c:Associations>
-<o:Association Id="o9">
+<o:Association Id="o10">
 <a:ObjectID>03BFD261-BAE1-48D9-85DB-AFA0D1831687</a:ObjectID>
 <a:Name>Association_1</a:Name>
 <a:Code>Association_1</a:Code>
@@ -2316,13 +3581,13 @@ Shadow=0</a:DisplayPreferences>
 <a:RoleAMultiplicity>1..*</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>1..*</a:RoleBMultiplicity>
 <c:Object1>
-<o:Class Ref="o26"/>
+<o:Class Ref="o27"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o25"/>
+<o:Class Ref="o26"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o12">
+<o:Association Id="o13">
 <a:ObjectID>6D8B3E55-A019-4D95-B874-288A92E14362</a:ObjectID>
 <a:Name>Association_9</a:Name>
 <a:Code>Association9</a:Code>
@@ -2337,13 +3602,13 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Shortcut Ref="o27"/>
+<o:Shortcut Ref="o28"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o26"/>
+<o:Class Ref="o27"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o15">
+<o:Association Id="o16">
 <a:ObjectID>08561826-20D6-42DB-8B95-2736F156397A</a:ObjectID>
 <a:Name>Association_7</a:Name>
 <a:Code>Association7</a:Code>
@@ -2358,13 +3623,13 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Shortcut Ref="o28"/>
+<o:Shortcut Ref="o29"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o26"/>
+<o:Class Ref="o27"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o18">
+<o:Association Id="o19">
 <a:ObjectID>723637E4-45DA-45CE-A28B-A3E66D649C2C</a:ObjectID>
 <a:Name>Association_10</a:Name>
 <a:Code>Association10</a:Code>
@@ -2379,13 +3644,13 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Shortcut Ref="o29"/>
+<o:Shortcut Ref="o30"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o25"/>
+<o:Class Ref="o26"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o21">
+<o:Association Id="o22">
 <a:ObjectID>3C9B778B-7497-453C-B61D-B83771AD3166</a:ObjectID>
 <a:Name>Association_11</a:Name>
 <a:Code>Association11</a:Code>
@@ -2400,13 +3665,13 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Shortcut Ref="o30"/>
+<o:Shortcut Ref="o31"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o25"/>
+<o:Class Ref="o26"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o24">
+<o:Association Id="o25">
 <a:ObjectID>667098F2-0B6D-477E-BD59-3359F20D0634</a:ObjectID>
 <a:Name>Association_6</a:Name>
 <a:Code>Association6</a:Code>
@@ -2421,15 +3686,15 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Shortcut Ref="o31"/>
+<o:Shortcut Ref="o32"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o25"/>
+<o:Class Ref="o26"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
 <c:TargetModels>
-<o:TargetModel Id="o42">
+<o:TargetModel Id="o44">
 <a:ObjectID>820E154C-B452-4E39-877D-8AF6B0262B8B</a:ObjectID>
 <a:Name>C# 2.0</a:Name>
 <a:Code>C# 2</a:Code>
@@ -2441,10 +3706,10 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetModelID>48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o3"/>
+<o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o43">
+<o:TargetModel Id="o45">
 <a:ObjectID>ED59E7BC-8BE8-4073-B891-409F9E03B819</a:ObjectID>
 <a:Name>WSDL for .NET</a:Name>
 <a:Code>WSDLDotNet</a:Code>
@@ -2456,10 +3721,10 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetModelID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o4"/>
+<o:Shortcut Ref="o5"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o44">
+<o:TargetModel Id="o46">
 <a:ObjectID>70785F4C-743D-4BA4-98AA-F23604B2D6ED</a:ObjectID>
 <a:Name>ModeleOrienteObjet_Module</a:Name>
 <a:Code>ModeleOrienteObjet_Module</a:Code>
@@ -2471,10 +3736,10 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetModelID>790D5369-D7E1-49D2-8FCE-B1E6C3F648BC</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o30"/>
+<o:Shortcut Ref="o31"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o45">
+<o:TargetModel Id="o47">
 <a:ObjectID>93DF05C3-C79B-4320-A44C-44E99229C773</a:ObjectID>
 <a:Name>ModeleOrienteObjet_Configuration</a:Name>
 <a:Code>ModeleOrienteObjet_Configuration</a:Code>
@@ -2486,25 +3751,39 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetModelID>4E101198-B68C-4664-9EF2-523EB34F3A53</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
+<o:Shortcut Ref="o30"/>
 <o:Shortcut Ref="o29"/>
 <o:Shortcut Ref="o28"/>
-<o:Shortcut Ref="o27"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o46">
+<o:TargetModel Id="o48">
 <a:ObjectID>A0335076-BE8B-427C-9D80-0FE841C50705</a:ObjectID>
 <a:Name>ModeleOrienteObjet_Sequences</a:Name>
 <a:Code>ModeleOrienteObjet_Sequences</a:Code>
-<a:ExtractionID>243060524</a:ExtractionID>
 <a:CreationDate>1419782459</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419782459</a:ModificationDate>
+<a:ModificationDate>1419790111</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
-<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/ModeleOrienteObjet_Sequences.moo</a:TargetModelURL>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Sequences.moo</a:TargetModelURL>
 <a:TargetModelID>AE1E45AE-7046-454E-AAD3-5EC013DAD1FF</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o31"/>
+<o:Shortcut Ref="o32"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o49">
+<a:ObjectID>DA76F636-759B-48BE-B1FC-75243277CDF2</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Prevision</a:Name>
+<a:Code>MODELEORIENTEOBJET_PREVISION</a:Code>
+<a:CreationDate>1419791235</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419791246</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Prevision.mpd</a:TargetModelURL>
+<a:TargetModelID>663E06C9-1F99-44D0-9353-4BA65265F6AF</a:TargetModelID>
+<a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
 </c:TargetModels>

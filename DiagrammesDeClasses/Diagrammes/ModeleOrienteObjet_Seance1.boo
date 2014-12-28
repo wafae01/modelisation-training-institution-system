@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{32ADCFC7-58F4-4206-B401-77DE695C999D}" Label="" LastModificationDate="1419771263" Name="ModeleOrienteObjet_Configuration" Objects="63" Symbols="14" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{3C707611-EBF0-49A6-99BA-600FE485129D}" Label="" LastModificationDate="1419790115" Name="ModeleOrienteObjet_Seance" Objects="28" Symbols="11" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -7,18 +7,18 @@
 <o:RootObject Id="o1">
 <c:Children>
 <o:Model Id="o2">
-<a:ObjectID>32ADCFC7-58F4-4206-B401-77DE695C999D</a:ObjectID>
-<a:Name>ModeleOrienteObjet_Configuration</a:Name>
-<a:Code>ModeleOrienteObjet_Configuration</a:Code>
-<a:CreationDate>1419757660</a:CreationDate>
+<a:ObjectID>3C707611-EBF0-49A6-99BA-600FE485129D</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Seance</a:Name>
+<a:Code>ModeleOrienteObjet_Seance</a:Code>
+<a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419771244</a:ModificationDate>
+<a:ModificationDate>1419782564</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Class Diagram Objects]
 GenerationCheckModel=Yes
-GenerationPath=
+GenerationPath=C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusDAL\PackageStagiaires\
 GenerationOptions=
 GenerationTasks=
 GenerationTargets=
@@ -939,8 +939,8 @@ IndxPKName=%TABLE%_PK
 IndxAKName=%TABLE%_AK
 IndxFKName=%REFR%_FK
 IndxThreshold=
-ColnFKName=%.3:PARENT%_%COLUMN%
-ColnFKNameUse=No
+ColnFKName=%PARENT%_%COLUMN%
+ColnFKNameUse=Yes
 
 [ModelOptions\Generate\Xsm]
 CheckModel=Yes
@@ -949,12 +949,12 @@ ORMapping=No
 NameToCode=No</a:ModelOptionsText>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
-<a:ObjectID>0F225514-500D-433B-BCEC-E93AC9BF8E01</a:ObjectID>
+<a:ObjectID>7C7E6772-5F96-44F4-BE28-5BEEBAF79E38</a:ObjectID>
 <a:Name>C# 2.0</a:Name>
 <a:Code>C# 2</a:Code>
-<a:CreationDate>1419757660</a:CreationDate>
+<a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419757660</a:ModificationDate>
+<a:ModificationDate>1419780810</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9</a:TargetID>
@@ -963,12 +963,12 @@ NameToCode=No</a:ModelOptionsText>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
 <o:Shortcut Id="o4">
-<a:ObjectID>6FD2FE89-983E-485B-80F5-9ECE29AFEB4C</a:ObjectID>
+<a:ObjectID>52FCD589-6ABA-42CB-82BD-15137C239573</a:ObjectID>
 <a:Name>WSDL for .NET</a:Name>
 <a:Code>WSDLDotNet</a:Code>
-<a:CreationDate>1419757660</a:CreationDate>
+<a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419757660</a:ModificationDate>
+<a:ModificationDate>1419780810</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetID>
@@ -977,12 +977,12 @@ NameToCode=No</a:ModelOptionsText>
 </c:ExtendedModelDefinitions>
 <c:ClassDiagrams>
 <o:ClassDiagram Id="o5">
-<a:ObjectID>6FA24952-3CE9-42EA-9740-1C7D7BF6C2D2</a:ObjectID>
-<a:Name>DiagrammeClasses_Configuration</a:Name>
-<a:Code>DiagrammeClasses_Configuration</a:Code>
-<a:CreationDate>1419757660</a:CreationDate>
+<a:ObjectID>A1D36E4F-FCE3-42E1-A375-6D3FA05BDC4F</a:ObjectID>
+<a:Name>DiagrammeClasses_Seance</a:Name>
+<a:Code>DiagrammeClasses_Seance</a:Code>
+<a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419771244</a:ModificationDate>
+<a:ModificationDate>1419782564</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1395,10 +1395,10 @@ Shadow=0</a:DisplayPreferences>
 <a:PaperSource>7</a:PaperSource>
 <c:Symbols>
 <o:AssociationSymbol Id="o6">
-<a:CreationDate>1419769773</a:CreationDate>
-<a:ModificationDate>1419770686</a:ModificationDate>
-<a:Rect>((-12094,-6901), (-657,4084))</a:Rect>
-<a:ListOfPoints>((-12094,-6901),(-2681,-6901),(-2681,4084))</a:ListOfPoints>
+<a:CreationDate>1419782557</a:CreationDate>
+<a:ModificationDate>1419782557</a:ModificationDate>
+<a:Rect>((-2737,4563), (3937,14550))</a:Rect>
+<a:ListOfPoints>((-900,4563),(-900,9682),(1950,9682),(1950,14550))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1415,38 +1415,96 @@ MULA 0 Arial,8,N</a:FontList>
 <o:Association Ref="o9"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:ClassSymbol Id="o8">
-<a:CreationDate>1419769773</a:CreationDate>
-<a:ModificationDate>1419769794</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-8327,2434), (5921,9824))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>0</a:LineColor>
-<a:FillColor>16777215</a:FillColor>
+<o:AssociationSymbol Id="o10">
+<a:CreationDate>1419782561</a:CreationDate>
+<a:ModificationDate>1419782582</a:ModificationDate>
+<a:Rect>((-25050,3282), (-6263,11224))</a:Rect>
+<a:ListOfPoints>((-6300,3282),(-6300,10050),(-25050,10050))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-CNTR 0 Arial,8,N
-Attributes 0 Arial,8,N
-ClassPrimaryAttribute 0 Arial,8,U
-Operations 0 Arial,8,N
-InnerClassifiers 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<a:ManuallyResized>1</a:ManuallyResized>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o11"/>
+</c:DestinationSymbol>
 <c:Object>
-<o:Class Ref="o10"/>
+<o:Association Ref="o12"/>
 </c:Object>
-</o:ClassSymbol>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o13">
+<a:CreationDate>1419782562</a:CreationDate>
+<a:ModificationDate>1419782584</a:ModificationDate>
+<a:Rect>((-24975,-1724), (-5175,45))</a:Rect>
+<a:ListOfPoints>((-5175,45),(-12752,45),(-12752,-1724),(-24975,-1724))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o14"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o15"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o16">
+<a:CreationDate>1419782563</a:CreationDate>
+<a:ModificationDate>1419782563</a:ModificationDate>
+<a:Rect>((-3037,-9873), (8925,-293))</a:Rect>
+<a:ListOfPoints>((-3000,-293),(-3000,-8700),(8925,-8700))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o17"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o18"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o19">
+<a:CreationDate>1419782564</a:CreationDate>
+<a:ModificationDate>1419782564</a:ModificationDate>
+<a:Rect>((-600,719), (16800,2926))</a:Rect>
+<a:ListOfPoints>((-600,719),(6359,719),(6359,2926),(16800,2926))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+MULA 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o20"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o21"/>
+</c:Object>
+</o:AssociationSymbol>
 <o:ClassSymbol Id="o7">
-<a:CreationDate>1419769773</a:CreationDate>
-<a:ModificationDate>1419770686</a:ModificationDate>
+<a:CreationDate>1419782212</a:CreationDate>
+<a:ModificationDate>1419782503</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-20844,-10575), (-11394,-3037))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>0</a:LineColor>
+<a:Rect>((-8342,-2564), (2368,6126))</a:Rect>
+<a:LineColor>4194368</a:LineColor>
 <a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
@@ -1460,18 +1518,17 @@ LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
-<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o11"/>
+<o:Class Ref="o22"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o12">
-<a:CreationDate>1419769773</a:CreationDate>
-<a:ModificationDate>1419769795</a:ModificationDate>
+<o:ClassSymbol Id="o8">
+<a:CreationDate>1419782257</a:CreationDate>
+<a:ModificationDate>1419782517</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((10428,3022), (19360,9764))</a:Rect>
-<a:LineColor>0</a:LineColor>
-<a:FillColor>16777215</a:FillColor>
+<a:Rect>((-2361,12752), (10910,17547))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1485,17 +1542,85 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o13"/>
+<o:Shortcut Ref="o23"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o20">
+<a:CreationDate>1419782267</a:CreationDate>
+<a:ModificationDate>1419782489</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((10351,-970), (23249,7720))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Shortcut Ref="o24"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o17">
+<a:CreationDate>1419782297</a:CreationDate>
+<a:ModificationDate>1419782298</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((4313,-14132), (18786,-6416))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Shortcut Ref="o25"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o11">
+<a:CreationDate>1419782323</a:CreationDate>
+<a:ModificationDate>1419782580</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-34424,6642), (-21526,14358))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Shortcut Ref="o26"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o14">
-<a:CreationDate>1419769773</a:CreationDate>
-<a:ModificationDate>1419769793</a:ModificationDate>
+<a:CreationDate>1419782496</a:CreationDate>
+<a:ModificationDate>1419782584</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-21911,2413), (-12461,9951))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>0</a:LineColor>
-<a:FillColor>16777215</a:FillColor>
+<a:Rect>((-34813,-7870), (-20086,820))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>STRN 0 Arial,8,N
 DISPNAME 0 Arial,8,N
@@ -1508,9 +1633,8 @@ LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
-<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o15"/>
+<o:Shortcut Ref="o27"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
@@ -1520,318 +1644,175 @@ LABL 0 Arial,8,N</a:FontList>
 <o:ClassDiagram Ref="o5"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o10">
-<a:ObjectID>E750A719-774F-4C06-965F-475DEECF88BB</a:ObjectID>
-<a:Name>CatégogiesSalleFormation</a:Name>
-<a:Code>CategogiesSalleFormation</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<o:Class Id="o22">
+<a:ObjectID>A2E26A9D-DA0B-4378-A8DF-B4A6DF241492</a:ObjectID>
+<a:Name>Séance</a:Name>
+<a:Code>Seance</a:Code>
+<a:CreationDate>1419782212</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782690</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o16">
-<a:ObjectID>4995641B-1B57-4224-B12D-A18B3820CC1A</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o17">
-<a:ObjectID>56594861-C0BB-4E74-8A8D-7B2A77AA9A3D</a:ObjectID>
-<a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o18">
-<a:ObjectID>16D29A75-DBC5-4B84-86EF-2396E2BE6AEF</a:ObjectID>
-<a:Name>Code</a:Name>
-<a:Code>code</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o19">
-<a:ObjectID>7A7CBEE8-2840-496A-A6C9-3EDF7843D014</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-</c:Attributes>
-<c:Identifiers>
-<o:Identifier Id="o20">
-<a:ObjectID>79DC45F8-D06C-4813-B978-829FA3FA8061</a:ObjectID>
-<a:Name>Identifiant_1</a:Name>
-<a:Code>Identifiant_1</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<c:Identifier.Attributes>
-<o:Attribute Ref="o16"/>
-</c:Identifier.Attributes>
-</o:Identifier>
-</c:Identifiers>
-<c:PrimaryIdentifier>
-<o:Identifier Ref="o20"/>
-</c:PrimaryIdentifier>
-</o:Class>
-<o:Class Id="o11">
-<a:ObjectID>11F45106-10A8-40C5-8B9B-FF4501B56B76</a:ObjectID>
-<a:Name>Salle</a:Name>
-<a:Code>Salle</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419770807</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<c:Attributes>
-<o:Attribute Id="o21">
-<a:ObjectID>09B9F54E-2B30-4DF5-BCBD-CB4DD76D8016</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o22">
-<a:ObjectID>5B2A64B1-412D-46A2-9C28-8DCD47D235F6</a:ObjectID>
-<a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o23">
-<a:ObjectID>3650B2AC-8C27-48F3-9672-4FFF2E3AE573</a:ObjectID>
-<a:Name>Code</a:Name>
-<a:Code>code</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o24">
-<a:ObjectID>7FE9C3FA-2A1B-4501-BB09-76AE8A64C6F9</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o25">
-<a:ObjectID>92CCDB35-C67E-4B50-8CAF-D0CA5DED53CC</a:ObjectID>
-<a:Name>qq</a:Name>
-<a:Code>qq</a:Code>
-<a:CreationDate>1419770440</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419771263</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-</c:Attributes>
-<c:Identifiers>
-<o:Identifier Id="o26">
-<a:ObjectID>0CFBC293-1583-4401-A671-057535EA1D83</a:ObjectID>
-<a:Name>Identifiant_1</a:Name>
-<a:Code>Identifiant_1</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<c:Identifier.Attributes>
-<o:Attribute Ref="o21"/>
-</c:Identifier.Attributes>
-</o:Identifier>
-</c:Identifiers>
-<c:PrimaryIdentifier>
-<o:Identifier Ref="o26"/>
-</c:PrimaryIdentifier>
-</o:Class>
-<o:Class Id="o13">
-<a:ObjectID>D2184A00-A3A7-41CC-89C2-BB7179F8A5F1</a:ObjectID>
-<a:Name>StratégiePédagogie</a:Name>
-<a:Code>StrategiePedagogie</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<c:Attributes>
-<o:Attribute Id="o27">
-<a:ObjectID>D48E7EB8-34FA-4445-99C7-3CD77EFFA09B</a:ObjectID>
-<a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
 <o:Attribute Id="o28">
-<a:ObjectID>92A94CC0-F800-4043-BDAE-A4B960E737DD</a:ObjectID>
+<a:ObjectID>4F103ACF-A1FF-4083-AF4A-58ED7851E451</a:ObjectID>
 <a:Name>Titre</a:Name>
 <a:Code>titre</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<a:CreationDate>1419782212</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782212</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o29">
-<a:ObjectID>A43A0187-33F6-4375-AA2C-29E38DA241FB</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<a:ObjectID>1077D1F6-2258-46D6-AB58-378AE0062CC3</a:ObjectID>
+<a:Name>Objectif</a:Name>
+<a:Code>objectif</a:Code>
+<a:CreationDate>1419782212</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782212</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
+<a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o30">
-<a:ObjectID>56C21404-4C9B-4DC1-B414-6413405F9A16</a:ObjectID>
-<a:Name>Image</a:Name>
-<a:Code>image</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-</c:Attributes>
-<c:Identifiers>
-<o:Identifier Id="o31">
-<a:ObjectID>3AE810B1-17C2-4037-AB16-7DCE00CC7E9B</a:ObjectID>
-<a:Name>Identifiant_1</a:Name>
-<a:Code>Identifiant_1</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<c:Identifier.Attributes>
-<o:Attribute Ref="o27"/>
-</c:Identifier.Attributes>
-</o:Identifier>
-</c:Identifiers>
-<c:PrimaryIdentifier>
-<o:Identifier Ref="o31"/>
-</c:PrimaryIdentifier>
-</o:Class>
-<o:Class Id="o15">
-<a:ObjectID>8203EE76-91F1-46B0-9CBF-C692CF7461E9</a:ObjectID>
-<a:Name>NiveauCompetence</a:Name>
-<a:Code>NiveauCompetence</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<c:Attributes>
-<o:Attribute Id="o32">
-<a:ObjectID>F5E8C1AA-0D27-4492-AB8A-C69AEC35408B</a:ObjectID>
+<a:ObjectID>4C168DAE-AD43-472A-9C8B-F9C4E7028717</a:ObjectID>
 <a:Name>Id</a:Name>
-<a:Code>id</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<a:Code>Id</a:Code>
+<a:CreationDate>1419782212</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782212</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o31">
+<a:ObjectID>769D9BA0-3BAA-4017-9384-F06AD431F4A8</a:ObjectID>
+<a:Name>Date</a:Name>
+<a:Code>Duree</a:Code>
+<a:CreationDate>1419782212</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782212</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:DataType>DateTime</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o32">
+<a:ObjectID>6936ACF5-DCCF-4837-8729-A5A149CC56C0</a:ObjectID>
+<a:Name>HeureDébut</a:Name>
+<a:Code>DateRealisation</a:Code>
+<a:CreationDate>1419782212</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782212</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:DataType>DateTime</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o33">
-<a:ObjectID>913FD8A6-18F7-42B6-BF86-9EBC5A64B929</a:ObjectID>
-<a:Name>Nom</a:Name>
-<a:Code>nom</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<a:ObjectID>18DF1182-4F47-46C5-A103-52C276C13F9F</a:ObjectID>
+<a:Name>HeureFin</a:Name>
+<a:Code>heureFin</a:Code>
+<a:CreationDate>1419782212</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782212</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o34">
-<a:ObjectID>30116450-AB9E-49F6-9A85-D944CB6F3C74</a:ObjectID>
-<a:Name>Code</a:Name>
-<a:Code>code</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o35">
-<a:ObjectID>02F9B2B4-B4B7-4347-A13A-E9D8138D8D09</a:ObjectID>
-<a:Name>Description</a:Name>
-<a:Code>description</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
-<a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:DataType>String</a:DataType>
+<a:DataType>DateTime</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o36">
-<a:ObjectID>6447DF59-7259-4CC8-9EB9-8967AC21FB92</a:ObjectID>
+<o:Identifier Id="o34">
+<a:ObjectID>A2BA9EA8-239C-4EC2-8FAE-A5734B4B1E0C</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>Identifiant_1</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<a:CreationDate>1419782212</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782212</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o32"/>
+<o:Attribute Ref="o30"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o36"/>
+<o:Identifier Ref="o34"/>
 </c:PrimaryIdentifier>
 </o:Class>
+<o:Shortcut Id="o23">
+<a:ObjectID>F47071F4-4C3B-4BD3-80A5-99774D24EA57</a:ObjectID>
+<a:Name>Formation</a:Name>
+<a:Code>Formation</a:Code>
+<a:CreationDate>1419782257</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782257</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>9089E0D7-BF7D-4B5A-9C26-83914F40ED54</a:TargetID>
+<a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o24">
+<a:ObjectID>7C14F7E4-589E-4E82-AE4D-0CFEA323895B</a:ObjectID>
+<a:Name>PrévisionSéance</a:Name>
+<a:Code>PrevisionSeance</a:Code>
+<a:CreationDate>1419782267</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782267</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>121BE29E-3B21-47EA-919D-01A4998283E3</a:TargetID>
+<a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o25">
+<a:ObjectID>B1DCCAF5-0980-4094-A911-918B14F402C4</a:ObjectID>
+<a:Name>Salle</a:Name>
+<a:Code>Salle</a:Code>
+<a:CreationDate>1419782297</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782297</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>B19F2A95-C20B-4E8C-9A7A-9283FB4860D6</a:TargetID>
+<a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o26">
+<a:ObjectID>2648A028-162F-4A5E-ABE4-48A280A5BCB3</a:ObjectID>
+<a:Name>Activite</a:Name>
+<a:Code>Activite</a:Code>
+<a:CreationDate>1419782323</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782323</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>ADBA6BB8-AA41-4E77-B885-250E1C6DA8B7</a:TargetID>
+<a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+<o:Shortcut Id="o27">
+<a:ObjectID>FABA7FA0-8BFC-44D4-BE46-B928AE13E3D6</a:ObjectID>
+<a:Name>Séquences</a:Name>
+<a:Code>Sequences</a:Code>
+<a:CreationDate>1419782496</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782496</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>44C0F02F-0D8F-4A16-915B-0B7ECA00A8F2</a:TargetID>
+<a:TargetClassID>18112063-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
 </c:Classes>
 <c:Associations>
 <o:Association Id="o9">
-<a:ObjectID>EDFA128B-6518-48D7-8115-FB04A29B0B1C</a:ObjectID>
+<a:ObjectID>507D71B7-655A-420B-954A-87DE3541EE97</a:ObjectID>
 <a:Name>Association_1</a:Name>
 <a:Code>Association1</a:Code>
-<a:CreationDate>1419769773</a:CreationDate>
+<a:CreationDate>1419782557</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419769773</a:ModificationDate>
+<a:ModificationDate>1419782571</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
@@ -1840,21 +1821,105 @@ LABL 0 Arial,8,N</a:FontList>
 
 </a:ExtendedAttributesText>
 <c:Object1>
-<o:Class Ref="o10"/>
+<o:Shortcut Ref="o23"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o11"/>
+<o:Class Ref="o22"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o12">
+<a:ObjectID>B416F2A6-E3CB-4BFA-AC31-B93D9E05B2A1</a:ObjectID>
+<a:Name>Association_2</a:Name>
+<a:Code>Association2</a:Code>
+<a:CreationDate>1419782561</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782578</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>1..*</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9},C# 2,154={B30A1960-E74E-41E5-88BC-74AF259F1A68},roleAContainer,6=&lt;None&gt;
+{CB967141-7AEA-46EE-A911-277E1F053A1B},roleBContainer,31=System.Collections.Generic.List
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Shortcut Ref="o26"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o22"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o15">
+<a:ObjectID>EA997C08-F3B2-4393-9A38-EFD22E0B7B83</a:ObjectID>
+<a:Name>Association_3</a:Name>
+<a:Code>Association3</a:Code>
+<a:CreationDate>1419782562</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782592</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9},C# 2,128={B30A1960-E74E-41E5-88BC-74AF259F1A68},roleAContainer,6=&lt;None&gt;
+{CB967141-7AEA-46EE-A911-277E1F053A1B},roleBContainer,6=&lt;None&gt;
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Shortcut Ref="o27"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o22"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o18">
+<a:ObjectID>7DDAD17C-2B56-469D-95EF-AF37B4539975</a:ObjectID>
+<a:Name>Association_4</a:Name>
+<a:Code>Association4</a:Code>
+<a:CreationDate>1419782563</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782600</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9},C# 2,128={B30A1960-E74E-41E5-88BC-74AF259F1A68},roleAContainer,6=&lt;None&gt;
+{CB967141-7AEA-46EE-A911-277E1F053A1B},roleBContainer,6=&lt;None&gt;
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Shortcut Ref="o25"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o22"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o21">
+<a:ObjectID>DFFB8AF7-FA74-4D6E-BF18-0793FB21F814</a:ObjectID>
+<a:Name>Association_5</a:Name>
+<a:Code>Association5</a:Code>
+<a:CreationDate>1419782564</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419782564</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<a:ExtendedAttributesText>{48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9},C# 2,154={B30A1960-E74E-41E5-88BC-74AF259F1A68},roleAContainer,6=&lt;None&gt;
+{CB967141-7AEA-46EE-A911-277E1F053A1B},roleBContainer,31=System.Collections.Generic.List
+
+</a:ExtendedAttributesText>
+<c:Object1>
+<o:Shortcut Ref="o24"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o22"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
 <c:TargetModels>
-<o:TargetModel Id="o37">
-<a:ObjectID>AC0AE9A1-BE89-49A8-8BB7-2C9DD874E29A</a:ObjectID>
+<o:TargetModel Id="o35">
+<a:ObjectID>98E48686-F5A5-4561-A972-42AAB01D9881</a:ObjectID>
 <a:Name>C# 2.0</a:Name>
 <a:Code>C# 2</a:Code>
-<a:CreationDate>1419757660</a:CreationDate>
+<a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419757856</a:ModificationDate>
+<a:ModificationDate>1419789988</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/csharp2.xol</a:TargetModelURL>
 <a:TargetModelID>48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9</a:TargetModelID>
@@ -1863,19 +1928,81 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o38">
-<a:ObjectID>F7F89189-C90E-4E30-AF34-AAFD1997CBF1</a:ObjectID>
+<o:TargetModel Id="o36">
+<a:ObjectID>DF5B6DD8-D631-4F56-ADD0-E657479D025B</a:ObjectID>
 <a:Name>WSDL for .NET</a:Name>
 <a:Code>WSDLDotNet</a:Code>
-<a:CreationDate>1419757660</a:CreationDate>
+<a:CreationDate>1419780810</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419757856</a:ModificationDate>
+<a:ModificationDate>1419784534</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLDotNet.xem</a:TargetModelURL>
 <a:TargetModelID>3287C7D6-062E-4BEA-AF1F-1634ED585124</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o4"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o37">
+<a:ObjectID>3E371346-F9D2-46B8-93CA-7AACC895E8AA</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Formation</a:Name>
+<a:Code>ModeleOrienteObjet_Formation</a:Code>
+<a:ExtractionID>5242975</a:ExtractionID>
+<a:CreationDate>1419782257</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419784218</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Formation.moo</a:TargetModelURL>
+<a:TargetModelID>92236C56-CD3E-4130-941F-A3946E795E6E</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o23"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o38">
+<a:ObjectID>56E79A81-29C2-4D28-99C3-2C99252269D4</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Prevision</a:Name>
+<a:Code>ModeleOrienteObjet_Prevision</a:Code>
+<a:CreationDate>1419782267</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419789988</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Prevision.moo</a:TargetModelURL>
+<a:TargetModelID>731BE618-FD25-4056-A1BB-8EE94E30F1FE</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o26"/>
+<o:Shortcut Ref="o24"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o39">
+<a:ObjectID>C2B238B4-19BC-419F-993B-C6DC3D12D92A</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Configuration</a:Name>
+<a:Code>ModeleOrienteObjet_Configuration</a:Code>
+<a:CreationDate>1419782297</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419789988</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Configuration.moo</a:TargetModelURL>
+<a:TargetModelID>4E101198-B68C-4664-9EF2-523EB34F3A53</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o25"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o40">
+<a:ObjectID>736601FD-BA0E-4E5A-BEA5-3905B279DCD3</a:ObjectID>
+<a:Name>ModeleOrienteObjet_Sequences</a:Name>
+<a:Code>ModeleOrienteObjet_Sequences</a:Code>
+<a:CreationDate>1419782496</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1419790115</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Sequences.moo</a:TargetModelURL>
+<a:TargetModelID>AE1E45AE-7046-454E-AAD3-5EC013DAD1FF</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o27"/>
 </c:SessionShortcuts>
 </o:TargetModel>
 </c:TargetModels>

@@ -1397,8 +1397,8 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o6">
 <a:CreationDate>1419782663</a:CreationDate>
 <a:ModificationDate>1419782663</a:ModificationDate>
-<a:Rect>((1276,-4200), (14100,4363))</a:Rect>
-<a:ListOfPoints>((3075,-4200),(3075,4363),(14100,4363))</a:ListOfPoints>
+<a:Rect>((1238,-4200), (14100,4054))</a:Rect>
+<a:ListOfPoints>((3075,-4200),(3075,4054),(14100,4054))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1418,8 +1418,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o10">
 <a:CreationDate>1419782673</a:CreationDate>
 <a:ModificationDate>1419782673</a:ModificationDate>
-<a:Rect>((-17175,-4800), (-1050,2479))</a:Rect>
-<a:ListOfPoints>((-1050,-4800),(-1050,1305),(-17175,1305))</a:ListOfPoints>
+<a:Rect>((-17175,-4800), (-1013,1474))</a:Rect>
+<a:ListOfPoints>((-1050,-4800),(-1050,300),(-17175,300))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1465,7 +1465,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419782646</a:CreationDate>
 <a:ModificationDate>1419782646</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-28124,-598), (-15226,4198))</a:Rect>
+<a:Rect>((-28124,-5466), (-15226,9066))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1488,7 +1488,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419782659</a:CreationDate>
 <a:ModificationDate>1419782659</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((9788,-1083), (22161,8582))</a:Rect>
+<a:Rect>((9788,1351), (22161,6148))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
