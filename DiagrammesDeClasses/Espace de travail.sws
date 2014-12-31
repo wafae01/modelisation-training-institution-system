@@ -5,7 +5,7 @@
 <Workspace>
 	<Local Expanded="Yes">
 		<Folder Expanded="Yes" Name="Diagrammes de classes">
-			<Model ID="{4E101198-B68C-4664-9EF2-523EB34F3A53}" Loaded="No" Name="ModeleOrienteObjet_Configuration" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Configuration.moo"/>
+			<Model ID="{4E101198-B68C-4664-9EF2-523EB34F3A53}" Name="ModeleOrienteObjet_Configuration" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Configuration.moo"/>
 			<Model ID="{7380804C-A43E-4EA0-8431-F921D7AB320E}" Loaded="No" Name="ModeleOrienteObjet_Filiere" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Filiere.moo"/>
 			<Model ID="{790D5369-D7E1-49D2-8FCE-B1E6C3F648BC}" Loaded="No" Name="ModeleOrienteObjet_Module" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Module.moo"/>
 			<Model ID="{CCFAF629-841B-4405-869E-3B8ACA319912}" Loaded="No" Name="ModeleOrienteObjet_Formateur" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Formateur.moo"/>
@@ -21,6 +21,7 @@
 			<Model ID="{92236C56-CD3E-4130-941F-A3946E795E6E}" Loaded="No" Name="ModeleOrienteObjet_Formation" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Formation.moo"/>
 			<Model ID="{AE1E45AE-7046-454E-AAD3-5EC013DAD1FF}" Loaded="No" Name="ModeleOrienteObjet_Sequences" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Sequences.moo"/>
 			<Model ID="{C09D5D20-051E-4FD3-B371-B0993C69EFC8}" Loaded="No" Name="ModeleOrienteObjet_Stagiaire" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Stagiaire.moo"/>
+			<Model Expanded="Yes" ID="{C40D48E9-BEFC-49B8-BE5A-5F07692DCAF2}" Name="ModeleOrienteObjet_Salle" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrammes/ModeleOrienteObjet_Salle.moo"/>
 		</Folder>
 		<Folder Expanded="Yes" Name="MPD">
 			<Model ID="{928FA394-353A-442C-98B4-2131BED211B7}" Loaded="No" Name="ModeleOrienteObjet_Stagiaire" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Diagrammes/ModeleOrienteObjet_Stagiaire.mpd"/>
@@ -36,7 +37,6 @@
 			<Model ID="{4E5C2368-2F54-42B6-9C0A-F8527F81C2DF}" Loaded="No" Name="ModeleOrienteObjet_Formation" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Diagrammes/ModeleOrienteObjet_Formation.mpd"/>
 			<Model ID="{73CD2E85-0650-49A9-90F9-3C3DB80F8902}" Loaded="No" Name="ModeleOrienteObjet_Groupe" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Diagrammes/ModeleOrienteObjet_Groupe.mpd"/>
 		</Folder>
-		<Model Expanded="Yes" ID="{64BBF2C7-862F-4774-83D2-41C0FC44CA88}" Name="Diagramme_cas_utilisation_cplus" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Diagramme de cas d&#39;utilisation/Diagramme_cas_utilisation_cplus.moo"/>
 	</Local>
 	<BrowserModule Name="Référentiel"/>
 </Workspace>
