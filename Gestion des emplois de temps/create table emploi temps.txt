@@ -1,0 +1,14 @@
+create table EmploisTemps
+(
+   id              integer primary key,
+   dateDebut            datetime,
+   dateFin              datetime
+);
+
+create table SeancePlannings
+(EmploisTemps_id     INTEGER,
+id int primary key,jour  INTEGER,
+heuredebut  INTEGER,heureFin INTEGER,
+CONSTRAINT   seanceemploisFK   FOREIGN KEY
+   (EmploisTemps_id) REFERENCES EmploisTemps(id));
+
