@@ -1,0 +1,1 @@
+Create Table AssocierGroupesStagiaires(id int not null,idGroupe int ,idStagiaire int,primary key(id),constraint fk_group foreign key(idgroupe) references groupes(id),constraint fk_stag foreign key(idstagiaire) references Stagiaires(id) )
