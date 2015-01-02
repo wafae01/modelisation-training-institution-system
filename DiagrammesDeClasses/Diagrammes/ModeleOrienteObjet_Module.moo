@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{790D5369-D7E1-49D2-8FCE-B1E6C3F648BC}" Label="" LastModificationDate="1419789767" Name="ModeleOrienteObjet_Module" Objects="47" Symbols="9" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{790D5369-D7E1-49D2-8FCE-B1E6C3F648BC}" Label="" LastModificationDate="1420024311" Name="ModeleOrienteObjet_Module" Objects="47" Symbols="9" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -2665,7 +2665,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o11">
 <a:CreationDate>1419780996</a:CreationDate>
 <a:ModificationDate>1419789761</a:ModificationDate>
-<a:Rect>((-19225,-5029), (-1207,6117))</a:Rect>
+<a:Rect>((-19225,-5029), (-1132,6117))</a:Rect>
 <a:ListOfPoints>((-1244,-5029),(-1244,4943),(-19225,4943))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -2707,8 +2707,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o17">
 <a:CreationDate>1419781026</a:CreationDate>
 <a:ModificationDate>1419789767</a:ModificationDate>
-<a:Rect>((5925,-225), (13575,9900))</a:Rect>
-<a:ListOfPoints>((13575,-225),(13575,6079),(5925,6079),(5925,9900))</a:ListOfPoints>
+<a:Rect>((5888,-225), (13612,10837))</a:Rect>
+<a:ListOfPoints>((13575,-225),(13575,6079),(5925,6079),(5925,10837))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>0</a:LineColor>
@@ -2821,7 +2821,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419781022</a:CreationDate>
 <a:ModificationDate>1419789767</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-1761,8517), (10161,16233))</a:Rect>
+<a:Rect>((-1761,9977), (10161,14773))</a:Rect>
 <a:LineColor>0</a:LineColor>
 <a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -3283,13 +3283,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>association1</a:Code>
 <a:CreationDate>1419780996</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419780996</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
-<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<a:ModificationDate>1420024299</a:ModificationDate>
+<a:Modifier>THINKPAD</a:Modifier>
+<a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..1</a:RoleBMultiplicity>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,224={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
 {F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
 {C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,17=java.util.HashSet
+
+{48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9},C# 2,64={CB967141-7AEA-46EE-A911-277E1F053A1B},roleBContainer,6=&lt;None&gt;
 
 </a:ExtendedAttributesText>
 <c:Object1>
@@ -3305,14 +3307,16 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>association2</a:Code>
 <a:CreationDate>1419780996</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419780996</a:ModificationDate>
-<a:Modifier>ESSARRAJ</a:Modifier>
-<a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
-<a:RoleBMultiplicity>0..1</a:RoleBMultiplicity>
+<a:ModificationDate>1420024311</a:ModificationDate>
+<a:Modifier>THINKPAD</a:Modifier>
+<a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,276={72FA5C48-5524-4DF7-8187-ABB19AB5AF9E},roleAContainer,6=&lt;None&gt;
 {F6FFC71C-C472-4261-A710-B0BCC0BF4D58},roleAImplementationClass,6=&lt;None&gt;
 {C11C9F66-6453-43A2-8824-6654518CF65A},roleBImplementationClass,6=&lt;None&gt;
 {78C31404-0EE5-4FD0-9038-EE396B305F05},roleBContainer,6=&lt;None&gt;
+
+{48DE8DAA-F163-416B-ACAA-3F3ABD6F9EE9},C# 2,64={B30A1960-E74E-41E5-88BC-74AF259F1A68},roleAContainer,6=&lt;None&gt;
 
 </a:ExtendedAttributesText>
 <c:Object1>
