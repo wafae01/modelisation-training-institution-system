@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{64BBF2C7-862F-4774-83D2-41C0FC44CA88}" Label="" LastModificationDate="1420024573" Name="Diagramme_cas_utilisation_cplus" Objects="58" Symbols="36" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{64BBF2C7-862F-4774-83D2-41C0FC44CA88}" Label="" LastModificationDate="1420294663" Name="Diagramme_cas_utilisation_cplus" Objects="63" Symbols="41" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -5767,7 +5767,7 @@ LABL 0 Arial,14,N</a:FontList>
 <a:Code>GestionDesCv</a:Code>
 <a:CreationDate>1420011454</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1420011475</a:ModificationDate>
+<a:ModificationDate>1420294509</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:DefaultDiagram>
@@ -5780,7 +5780,7 @@ LABL 0 Arial,14,N</a:FontList>
 <a:Code>DiagrammeCasUtilisation_1</a:Code>
 <a:CreationDate>1420011454</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1420011454</a:ModificationDate>
+<a:ModificationDate>1420294509</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -6076,10 +6076,159 @@ Shadow=0</a:DisplayPreferences>
 <a:PageMargins>((315,354), (433,354))</a:PageMargins>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:UseCaseSymbol Id="o73">
+<a:CreationDate>1420294428</a:CreationDate>
+<a:ModificationDate>1420294586</a:ModificationDate>
+<a:Rect>((-13151,16318), (13301,19082))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12632256</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,14,N
+DISPNAME 0 Arial,14,N
+LABL 0 Arial,14,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:UseCase Ref="o74"/>
+</c:Object>
+</o:UseCaseSymbol>
+<o:UseCaseSymbol Id="o75">
+<a:CreationDate>1420294451</a:CreationDate>
+<a:ModificationDate>1420294663</a:ModificationDate>
+<a:Rect>((-13300,10993), (13152,13757))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12632256</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,14,N
+DISPNAME 0 Arial,14,N
+LABL 0 Arial,14,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:UseCase Ref="o76"/>
+</c:Object>
+</o:UseCaseSymbol>
+<o:UseCaseSymbol Id="o77">
+<a:CreationDate>1420294457</a:CreationDate>
+<a:ModificationDate>1420294588</a:ModificationDate>
+<a:Rect>((-12399,4619), (14053,7383))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12632256</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,14,N
+DISPNAME 0 Arial,14,N
+LABL 0 Arial,14,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:UseCase Ref="o78"/>
+</c:Object>
+</o:UseCaseSymbol>
+<o:UseCaseSymbol Id="o79">
+<a:CreationDate>1420294498</a:CreationDate>
+<a:ModificationDate>1420294589</a:ModificationDate>
+<a:Rect>((-10824,-1005), (15628,1759))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12632256</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,14,N
+DISPNAME 0 Arial,14,N
+LABL 0 Arial,14,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:UseCase Ref="o80"/>
+</c:Object>
+</o:UseCaseSymbol>
+<o:UseCaseSymbol Id="o81">
+<a:CreationDate>1420294509</a:CreationDate>
+<a:ModificationDate>1420294659</a:ModificationDate>
+<a:Rect>((-11274,-5954), (16350,-3190))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>0</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>12632256</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,14,N
+DISPNAME 0 Arial,14,N
+LABL 0 Arial,14,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:UseCase Ref="o82"/>
+</c:Object>
+</o:UseCaseSymbol>
+</c:Symbols>
 </o:UseCaseDiagram>
 </c:UseCaseDiagrams>
+<c:UseCases>
+<o:UseCase Id="o74">
+<a:ObjectID>E2F09383-6607-496F-B9AA-DBF1F86B4111</a:ObjectID>
+<a:Name>Gestion diplômes</a:Name>
+<a:Code>Gestion_diplomes</a:Code>
+<a:CreationDate>1420294428</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1420294448</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+</o:UseCase>
+<o:UseCase Id="o76">
+<a:ObjectID>3A81F5A9-DE43-4476-B497-2F8235FD2B12</a:ObjectID>
+<a:Name>Gestion  des stages</a:Name>
+<a:Code>Gestion__des_stages</a:Code>
+<a:CreationDate>1420294451</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1420294455</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+</o:UseCase>
+<o:UseCase Id="o78">
+<a:ObjectID>1D246668-D211-4CF2-B747-C7F5742DE685</a:ObjectID>
+<a:Name>Gestion  des formations continues</a:Name>
+<a:Code>Gestion__des_formations_continues</a:Code>
+<a:CreationDate>1420294457</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1420294478</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+</o:UseCase>
+<o:UseCase Id="o80">
+<a:ObjectID>375A6793-9540-4FC5-9B0D-B77DB132D094</a:ObjectID>
+<a:Name>Gestion  des langues</a:Name>
+<a:Code>Gestion__des_langues</a:Code>
+<a:CreationDate>1420294498</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1420294506</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+</o:UseCase>
+<o:UseCase Id="o82">
+<a:ObjectID>FE597076-E99E-4524-A96E-8C98EC9A1B24</a:ObjectID>
+<a:Name>Gestion des compétences</a:Name>
+<a:Code>Gestion_des_competences</a:Code>
+<a:CreationDate>1420294509</a:CreationDate>
+<a:Creator>ESSARRAJ</a:Creator>
+<a:ModificationDate>1420294517</a:ModificationDate>
+<a:Modifier>ESSARRAJ</a:Modifier>
+</o:UseCase>
+</c:UseCases>
 </o:Package>
-<o:Package Id="o73">
+<o:Package Id="o83">
 <a:ObjectID>BDD642AF-0540-4DD0-939D-27D7CC6BFF5D</a:ObjectID>
 <a:Name>Gestion des tableau de bors</a:Name>
 <a:Code>GestionDesTableauDeBors</a:Code>
@@ -6089,10 +6238,10 @@ Shadow=0</a:DisplayPreferences>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:DefaultDiagram>
-<o:UseCaseDiagram Ref="o74"/>
+<o:UseCaseDiagram Ref="o84"/>
 </c:DefaultDiagram>
 <c:UseCaseDiagrams>
-<o:UseCaseDiagram Id="o74">
+<o:UseCaseDiagram Id="o84">
 <a:ObjectID>92081656-5985-4345-A01B-14262F9E3B87</a:ObjectID>
 <a:Name>DiagrammeCasUtilisation_1</a:Name>
 <a:Code>DiagrammeCasUtilisation_1</a:Code>
@@ -6397,7 +6546,7 @@ Shadow=0</a:DisplayPreferences>
 </o:UseCaseDiagram>
 </c:UseCaseDiagrams>
 </o:Package>
-<o:Package Id="o75">
+<o:Package Id="o85">
 <a:ObjectID>C0F187CE-D80E-445F-A010-8CFD133EAC37</a:ObjectID>
 <a:Name>Statistique</a:Name>
 <a:Code>Statistique</a:Code>
@@ -6407,10 +6556,10 @@ Shadow=0</a:DisplayPreferences>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:DefaultDiagram>
-<o:UseCaseDiagram Ref="o76"/>
+<o:UseCaseDiagram Ref="o86"/>
 </c:DefaultDiagram>
 <c:UseCaseDiagrams>
-<o:UseCaseDiagram Id="o76">
+<o:UseCaseDiagram Id="o86">
 <a:ObjectID>946957EE-EA97-41C2-A291-FBB04BDCE655</a:ObjectID>
 <a:Name>DiagrammeCasUtilisation_1</a:Name>
 <a:Code>DiagrammeCasUtilisation_1</a:Code>
@@ -6717,10 +6866,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Package>
 </c:Packages>
 <c:DefaultDiagram>
-<o:UseCaseDiagram Ref="o77"/>
+<o:UseCaseDiagram Ref="o87"/>
 </c:DefaultDiagram>
 <c:UseCaseDiagrams>
-<o:UseCaseDiagram Id="o77">
+<o:UseCaseDiagram Id="o87">
 <a:ObjectID>F4D790C9-B3DF-4433-A674-B9F27BB8FCCC</a:ObjectID>
 <a:Name>DiagrammeCasUtilisation_cplus</a:Name>
 <a:Code>DiagrammeCasUtilisation_cplus</a:Code>
@@ -7023,7 +7172,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>7</a:PaperSource>
 <c:Symbols>
-<o:PackageSymbol Id="o78">
+<o:PackageSymbol Id="o88">
 <a:CreationDate>1420010256</a:CreationDate>
 <a:ModificationDate>1420011642</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7043,7 +7192,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o5"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o79">
+<o:PackageSymbol Id="o89">
 <a:CreationDate>1420010326</a:CreationDate>
 <a:ModificationDate>1420011644</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7061,7 +7210,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o9"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o80">
+<o:PackageSymbol Id="o90">
 <a:CreationDate>1420010328</a:CreationDate>
 <a:ModificationDate>1420011639</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7079,7 +7228,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o17"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o81">
+<o:PackageSymbol Id="o91">
 <a:CreationDate>1420010328</a:CreationDate>
 <a:ModificationDate>1420011672</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7099,7 +7248,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o21"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o82">
+<o:PackageSymbol Id="o92">
 <a:CreationDate>1420010329</a:CreationDate>
 <a:ModificationDate>1420011672</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7117,7 +7266,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o29"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o83">
+<o:PackageSymbol Id="o93">
 <a:CreationDate>1420010329</a:CreationDate>
 <a:ModificationDate>1420011650</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7135,7 +7284,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o33"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o84">
+<o:PackageSymbol Id="o94">
 <a:CreationDate>1420010428</a:CreationDate>
 <a:ModificationDate>1420011633</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7153,7 +7302,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o37"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o85">
+<o:PackageSymbol Id="o95">
 <a:CreationDate>1420010437</a:CreationDate>
 <a:ModificationDate>1420011637</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7171,7 +7320,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o43"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o86">
+<o:PackageSymbol Id="o96">
 <a:CreationDate>1420010453</a:CreationDate>
 <a:ModificationDate>1420011675</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7191,7 +7340,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o47"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o87">
+<o:PackageSymbol Id="o97">
 <a:CreationDate>1420011186</a:CreationDate>
 <a:ModificationDate>1420011636</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7211,7 +7360,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o51"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o88">
+<o:PackageSymbol Id="o98">
 <a:CreationDate>1420011254</a:CreationDate>
 <a:ModificationDate>1420011672</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7231,7 +7380,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o57"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o89">
+<o:PackageSymbol Id="o99">
 <a:CreationDate>1420011293</a:CreationDate>
 <a:ModificationDate>1420011646</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7249,7 +7398,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o63"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o90">
+<o:PackageSymbol Id="o100">
 <a:CreationDate>1420011335</a:CreationDate>
 <a:ModificationDate>1420011672</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7267,7 +7416,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o67"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o91">
+<o:PackageSymbol Id="o101">
 <a:CreationDate>1420011454</a:CreationDate>
 <a:ModificationDate>1420011478</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7285,7 +7434,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Package Ref="o71"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o92">
+<o:PackageSymbol Id="o102">
 <a:CreationDate>1420011481</a:CreationDate>
 <a:ModificationDate>1420011493</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7300,10 +7449,10 @@ LABL 0 Arial,14,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Package Ref="o73"/>
+<o:Package Ref="o83"/>
 </c:Object>
 </o:PackageSymbol>
-<o:PackageSymbol Id="o93">
+<o:PackageSymbol Id="o103">
 <a:CreationDate>1420011494</a:CreationDate>
 <a:ModificationDate>1420011518</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -7318,14 +7467,14 @@ LABL 0 Arial,14,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Package Ref="o75"/>
+<o:Package Ref="o85"/>
 </c:Object>
 </o:PackageSymbol>
 </c:Symbols>
 </o:UseCaseDiagram>
 </c:UseCaseDiagrams>
 <c:TargetModels>
-<o:TargetModel Id="o94">
+<o:TargetModel Id="o104">
 <a:ObjectID>6E9376B0-1EBC-4D38-8812-16014B2BFE94</a:ObjectID>
 <a:Name>C# 2.0</a:Name>
 <a:Code>C# 2</a:Code>
@@ -7340,7 +7489,7 @@ LABL 0 Arial,14,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o95">
+<o:TargetModel Id="o105">
 <a:ObjectID>299EEF60-A014-49AF-B49F-C5948709A213</a:ObjectID>
 <a:Name>WSDL for .NET</a:Name>
 <a:Code>WSDLDotNet</a:Code>
