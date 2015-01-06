@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{BF55867B-C025-4774-9CA5-E44F370A2475}" Label="" LastModificationDate="1419847017" Name="ModeleOrienteObjet_Absence" Objects="17" Symbols="5" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{BF55867B-C025-4774-9CA5-E44F370A2475}" Label="" LastModificationDate="1420540800" Name="ModeleOrienteObjet_Absence" Objects="17" Symbols="5" Target="C# 2.0" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1396,9 +1396,9 @@ Shadow=0</a:DisplayPreferences>
 <c:Symbols>
 <o:AssociationSymbol Id="o6">
 <a:CreationDate>1419782663</a:CreationDate>
-<a:ModificationDate>1419785829</a:ModificationDate>
-<a:Rect>((375,2880), (14100,6424))</a:Rect>
-<a:ListOfPoints>((375,5250),(6143,5250),(6143,4054),(14100,4054))</a:ListOfPoints>
+<a:ModificationDate>1420540800</a:ModificationDate>
+<a:Rect>((1725,4014), (15600,7549))</a:Rect>
+<a:ListOfPoints>((1725,6375),(6143,6375),(6143,5188),(15600,5188))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1417,9 +1417,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o10">
 <a:CreationDate>1419782673</a:CreationDate>
-<a:ModificationDate>1419785829</a:ModificationDate>
-<a:Rect>((-17175,-852), (-1951,4650))</a:Rect>
-<a:ListOfPoints>((-3750,4650),(-3750,300),(-17175,300))</a:ListOfPoints>
+<a:ModificationDate>1420540799</a:ModificationDate>
+<a:Rect>((-13350,273), (-526,5775))</a:Rect>
+<a:ListOfPoints>((-2400,5775),(-2400,375),(-13350,375))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1438,9 +1438,9 @@ MULA 0 Arial,8,N</a:FontList>
 </o:AssociationSymbol>
 <o:ClassSymbol Id="o7">
 <a:CreationDate>1419782636</a:CreationDate>
-<a:ModificationDate>1419785829</a:ModificationDate>
+<a:ModificationDate>1420540799</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-6615,1522), (2499,7174))</a:Rect>
+<a:Rect>((-5265,2647), (3849,8299))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
@@ -1463,9 +1463,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o11">
 <a:CreationDate>1419782646</a:CreationDate>
-<a:ModificationDate>1419782646</a:ModificationDate>
+<a:ModificationDate>1420540798</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-28124,-5466), (-15226,9066))</a:Rect>
+<a:Rect>((-24299,-5391), (-11401,9141))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1486,9 +1486,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o8">
 <a:CreationDate>1419782659</a:CreationDate>
-<a:ModificationDate>1419782659</a:ModificationDate>
+<a:ModificationDate>1420540800</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((9788,1351), (22161,6148))</a:Rect>
+<a:Rect>((11288,-257), (23661,9407))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1697,10 +1697,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ObjectID>B90EC550-BB90-49C2-98FE-984622651644</a:ObjectID>
 <a:Name>ModeleOrienteObjet_Seance</a:Name>
 <a:Code>ModeleOrienteObjet_Seance</a:Code>
-<a:ExtractionID>2949164</a:ExtractionID>
 <a:CreationDate>1419782659</a:CreationDate>
 <a:Creator>ESSARRAJ</a:Creator>
-<a:ModificationDate>1419784175</a:ModificationDate>
+<a:ModificationDate>1420540656</a:ModificationDate>
 <a:Modifier>ESSARRAJ</a:Modifier>
 <a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Seance.moo</a:TargetModelURL>
 <a:TargetModelID>3C707611-EBF0-49A6-99BA-600FE485129D</a:TargetModelID>

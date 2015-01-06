@@ -1397,7 +1397,7 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o6">
 <a:CreationDate>1419782032</a:CreationDate>
 <a:ModificationDate>1419786116</a:ModificationDate>
-<a:Rect>((4025,-5663), (6656,3680))</a:Rect>
+<a:Rect>((4062,-5663), (6619,3680))</a:Rect>
 <a:ListOfPoints>((4062,3680),(4062,-160),(6619,-160),(6619,-5663))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
@@ -1418,8 +1418,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o10">
 <a:CreationDate>1419782080</a:CreationDate>
 <a:ModificationDate>1419786120</a:ModificationDate>
-<a:Rect>((-12967,3265), (2663,8413))</a:Rect>
-<a:ListOfPoints>((2663,4439),(-6630,4439),(-6630,7239),(-12967,7239))</a:ListOfPoints>
+<a:Rect>((-12967,3265), (2663,9190))</a:Rect>
+<a:ListOfPoints>((2663,4439),(-6630,4439),(-6630,8016),(-12967,8016))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1439,8 +1439,8 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o13">
 <a:CreationDate>1419786023</a:CreationDate>
 <a:ModificationDate>1419786029</a:ModificationDate>
-<a:Rect>((4565,5427), (17107,6643))</a:Rect>
-<a:ListOfPoints>((4565,5427),(9770,5427),(9770,6643),(17107,6643))</a:ListOfPoints>
+<a:Rect>((4565,4252), (17107,6601))</a:Rect>
+<a:ListOfPoints>((4565,5427),(9770,5427),(9770,5426),(17107,5426))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1530,7 +1530,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419782077</a:CreationDate>
 <a:ModificationDate>1419786120</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-22228,4203), (-8955,8999))</a:Rect>
+<a:Rect>((-22228,1282), (-8955,11920))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1553,7 +1553,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1419786018</a:CreationDate>
 <a:ModificationDate>1419786019</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((11877,6243), (27475,11039))</a:Rect>
+<a:Rect>((11877,4783), (27475,12499))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1915,7 +1915,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Creator>chabba</a:Creator>
 <a:ModificationDate>1419953082</a:ModificationDate>
 <a:Modifier>chabba</a:Modifier>
-<a:TargetModelURL>file:///C|/Users/chabba/Desktop/tachesemploidetemps/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Formation.moo</a:TargetModelURL>
+<a:TargetModelURL>file:///C|/Users/ESSARRAJ/Documents/GitHub/modelisation-cplus/DiagrammesDeClasses/Diagrammes/ModeleOrienteObjet_Formation.moo</a:TargetModelURL>
 <a:TargetModelID>92236C56-CD3E-4130-941F-A3946E795E6E</a:TargetModelID>
 <a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
